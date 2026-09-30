@@ -1,0 +1,322 @@
+[
+    {
+        "id": 2,
+        "parent_id": 1,
+        "name": "Mens",
+        "slug": "mens",
+        "description": "Men",
+        "image": "/images/categories/2.webp"
+    },
+    {
+        "id": 5,
+        "parent_id": 2,
+        "name": "Formal Wear",
+        "slug": "formal-wear-men",
+        "description": "Formal Wear",
+        "image": null
+    },
+    {
+        "id": 6,
+        "parent_id": 2,
+        "name": "Casual Wear",
+        "slug": "casual-wear-men",
+        "description": "Casual Wear",
+        "image": null
+    },
+    {
+        "id": 7,
+        "parent_id": 2,
+        "name": "Active Wear",
+        "slug": "active-wear",
+        "description": "Active Wear",
+        "image": null
+    },
+    {
+        "id": 8,
+        "parent_id": 2,
+        "name": "Footwear",
+        "slug": "footwear",
+        "description": "Footwear",
+        "image": null
+    },
+    {
+        "id": 4,
+        "parent_id": 1,
+        "name": "Womens",
+        "slug": "womens",
+        "description": "Woman",
+        "image": "/images/categories/4.webp"
+    },
+    {
+        "id": 9,
+        "parent_id": 4,
+        "name": "Formal Wear",
+        "slug": "formal-wear-female",
+        "description": "Formal Wear",
+        "image": null
+    },
+    {
+        "id": 10,
+        "parent_id": 4,
+        "name": "Casual Wear",
+        "slug": "casual-wear-female",
+        "description": "Casual Wear",
+        "image": null
+    },
+    {
+        "id": 11,
+        "parent_id": 4,
+        "name": "Active Wear",
+        "slug": "active-wear-female",
+        "description": "Active",
+        "image": null
+    },
+    {
+        "id": 12,
+        "parent_id": 4,
+        "name": "Footwear",
+        "slug": "footwear-female",
+        "description": "Footwear",
+        "image": null
+    },
+    {
+        "id": 3,
+        "parent_id": 1,
+        "name": "Kids",
+        "slug": "kids",
+        "description": "Kids",
+        "image": "/images/categories/3.webp"
+    },
+    {
+        "id": 13,
+        "parent_id": 3,
+        "name": "Girls Clothing",
+        "slug": "girls-clothing",
+        "description": "Girls Clothing",
+        "image": null
+    },
+    {
+        "id": 14,
+        "parent_id": 3,
+        "name": "Boys Clothing",
+        "slug": "boys-clothing",
+        "description": "Boys Clothing",
+        "image": null
+    },
+    {
+        "id": 15,
+        "parent_id": 3,
+        "name": "Girls Footwear",
+        "slug": "girls-footwear",
+        "description": "Girls Footwear",
+        "image": null
+    },
+    {
+        "id": 16,
+        "parent_id": 3,
+        "name": "Boys Footwear",
+        "slug": "boys-footwear",
+        "description": "Boys Footwear",
+        "image": null
+    },
+    {
+        "id": 17,
+        "parent_id": 1,
+        "name": "Wellness",
+        "slug": "wellness",
+        "description": "Fitness",
+        "image": "/images/categories/17.webp"
+    },
+    {
+        "id": 18,
+        "parent_id": 17,
+        "name": "Downloadable Yoga Tutorial",
+        "slug": "downloadable-yoga-tutorial",
+        "description": "Downloadable Yoga Tutorial",
+        "image": null
+    },
+    {
+        "id": 19,
+        "parent_id": 17,
+        "name": "E-Books",
+        "slug": "e-books",
+        "description": "Books Collection",
+        "image": null
+    },
+    {
+        "id": 20,
+        "parent_id": 17,
+        "name": "Movie Pass",
+        "slug": "movie-pass",
+        "description": "Movie Pass",
+        "image": null
+    },
+    {
+        "id": 21,
+        "parent_id": 1,
+        "name": "Bookings",
+        "slug": "bookings",
+        "description": "Easily manage and sell your booking-based products with our seamless booking system. Whether you offer appointments, rentals, events, or reservations, our solution ensures a smooth experience for both businesses and customers. With real-time availability, flexible scheduling, and automated notifications, you can streamline your booking process effortlessly. Enhance customer convenience and maximize your sales with our powerful booking product solution!",
+        "image": "/images/categories/21.webp"
+    },
+    {
+        "id": 22,
+        "parent_id": 21,
+        "name": "Appointment Booking",
+        "slug": "appointment-booking",
+        "description": "Appointment booking allows customers to schedule time slots for services or consultations with businesses or professionals. This system is commonly used in industries such as healthcare, beauty, education, and personal services. It helps streamline scheduling, reduce wait times, and improve customer satisfaction by offering convenient, time-based reservations.",
+        "image": null
+    },
+    {
+        "id": 23,
+        "parent_id": 21,
+        "name": "Event Booking",
+        "slug": "event-booking",
+        "description": "Event booking allows individuals or groups to register or reserve spots for public or private events such as concerts, workshops, conferences, or parties. It typically includes options for selecting dates, seating types, and ticket categories, providing organizers with efficient attendee management and ensuring a smooth entry process.",
+        "image": null
+    },
+    {
+        "id": 24,
+        "parent_id": 23,
+        "name": "Community Hall Bookings",
+        "slug": "community-hall-bookings",
+        "description": "Community hall booking enables individuals, organizations, or groups to reserve community spaces for various events such as weddings, meetings, cultural programs, or social gatherings. This system helps manage availability, schedule bookings, and handle logistics like capacity, amenities, and rental duration. It ensures efficient use of public or private halls while offering a convenient way for users to organize their events.",
+        "image": null
+    },
+    {
+        "id": 25,
+        "parent_id": 21,
+        "name": "Table Booking",
+        "slug": "table-booking",
+        "description": "Table booking enables customers to reserve tables at restaurants, cafes, or dining venues in advance. It helps manage seating capacity, reduce wait times, and provide a better dining experience. This system is especially useful during peak hours, special events, or for accommodating large groups with specific preferences.",
+        "image": null
+    },
+    {
+        "id": 26,
+        "parent_id": 21,
+        "name": "Rental Booking",
+        "slug": "rental-booking",
+        "description": "Rental booking facilitates the reservation of items or properties for temporary use, such as vehicles, equipment, vacation homes, or meeting spaces. It includes features for selecting rental periods, checking availability, and managing payments. This system supports both short-term and long-term rentals, enhancing convenience for both providers and renters.",
+        "image": null
+    },
+    {
+        "id": 27,
+        "parent_id": 1,
+        "name": "Electronics",
+        "slug": "electronics",
+        "description": "Explore the latest in consumer electronics, designed to keep you connected, productive, and entertained. Whether you're upgrading your devices or looking for smart solutions, we have everything you need.",
+        "image": "/images/categories/27.webp"
+    },
+    {
+        "id": 28,
+        "parent_id": 27,
+        "name": "Mobile Phones & Accessories",
+        "slug": "mobile-phones-accessories",
+        "description": "Discover smartphones, chargers, cases, and other essentials for staying connected on the go.",
+        "image": null
+    },
+    {
+        "id": 29,
+        "parent_id": 27,
+        "name": "Laptops & Tablets",
+        "slug": "laptops-tablets",
+        "description": "Find powerful laptops and portable tablets for work, study, and play.",
+        "image": null
+    },
+    {
+        "id": 30,
+        "parent_id": 27,
+        "name": "Audio Devices",
+        "slug": "audio-devices",
+        "description": "Shop headphones, earbuds, and speakers to enjoy crystal-clear sound and immersive audio experiences.",
+        "image": null
+    },
+    {
+        "id": 31,
+        "parent_id": 27,
+        "name": "Smart Home & Automation",
+        "slug": "smart-home-automation",
+        "description": "Make life easier with smart lighting, thermostats, security systems, and more.",
+        "image": null
+    },
+    {
+        "id": 32,
+        "parent_id": 1,
+        "name": "Household",
+        "slug": "household",
+        "description": "Upgrade your living space with functional and stylish home and kitchen essentials. From cooking to cleaning, find products that enhance comfort and efficiency.",
+        "image": "/images/categories/32.webp"
+    },
+    {
+        "id": 33,
+        "parent_id": 32,
+        "name": "Kitchen Appliances",
+        "slug": "kitchen-appliances",
+        "description": "Browse blenders, air fryers, coffee makers, and more to simplify meal prep.",
+        "image": null
+    },
+    {
+        "id": 34,
+        "parent_id": 32,
+        "name": "Cookware & Dining",
+        "slug": "cookware-dining",
+        "description": "Explore cookware sets, utensils, dinnerware, and serveware for your culinary needs.",
+        "image": null
+    },
+    {
+        "id": 35,
+        "parent_id": 32,
+        "name": "Furniture & Decor",
+        "slug": "furniture-decor",
+        "description": "Add comfort and charm with sofas, tables, wall art, and home accents.",
+        "image": null
+    },
+    {
+        "id": 36,
+        "parent_id": 32,
+        "name": "Cleaning Supplies",
+        "slug": "cleaning-supplies",
+        "description": "Keep your space spotless with vacuums, cleaning sprays, brooms, and organizers.",
+        "image": null
+    },
+    {
+        "id": 37,
+        "parent_id": 1,
+        "name": "Books & Stationery",
+        "slug": "books-stationery",
+        "description": "Ignite your imagination or organize your workspace with a wide selection of books and stationery. Perfect for readers, students, professionals, and artists.",
+        "image": "/images/categories/37.webp"
+    },
+    {
+        "id": 38,
+        "parent_id": 37,
+        "name": "Fiction & Non-Fiction Books",
+        "slug": "fiction-non-fiction-books",
+        "description": "Dive into bestselling novels, biographies, self-help, and more.",
+        "image": null
+    },
+    {
+        "id": 39,
+        "parent_id": 37,
+        "name": "Educational & Academic",
+        "slug": "educational-academic",
+        "description": "Find textbooks, reference materials, and study guides for all ages.",
+        "image": null
+    },
+    {
+        "id": 40,
+        "parent_id": 37,
+        "name": "Office Supplies",
+        "slug": "office-supplies",
+        "description": "Shop pens, notebooks, planners, and office essentials for productivity.",
+        "image": null
+    },
+    {
+        "id": 41,
+        "parent_id": 37,
+        "name": "Art & Craft Materials",
+        "slug": "art-craft-materials",
+        "description": "Explore paints, brushes, sketchbooks, and DIY craft kits for creatives.",
+        "image": null
+    }
+]

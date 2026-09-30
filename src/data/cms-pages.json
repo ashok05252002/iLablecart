@@ -1,0 +1,52 @@
+[
+    {
+        "slug": "about-us",
+        "title": "About Us",
+        "html": "<div class=\"static-container\"><div class=\"mb-5\">About Us Page Content</div></div>"
+    },
+    {
+        "slug": "return-policy",
+        "title": "Return Policy",
+        "html": "<div class=\"static-container\"><div class=\"mb-5\">Return Policy Page Content</div></div>"
+    },
+    {
+        "slug": "refund-policy",
+        "title": "Refund Policy",
+        "html": "<div class=\"static-container\"><div class=\"mb-5\">Refund Policy Page Content</div></div>"
+    },
+    {
+        "slug": "terms-conditions",
+        "title": "Terms & Conditions",
+        "html": "<div class=\"static-container\"><div class=\"mb-5\">Terms & Conditions Page Content</div></div>"
+    },
+    {
+        "slug": "terms-of-use",
+        "title": "Terms of Use",
+        "html": "<div class=\"static-container\"><div class=\"mb-5\">Terms of Use Page Content</div></div>"
+    },
+    {
+        "slug": "customer-service",
+        "title": "Customer Service",
+        "html": "<div class=\"static-container\"><div class=\"mb-5\">Customer Service Page Content</div></div>"
+    },
+    {
+        "slug": "whats-new",
+        "title": "What's New",
+        "html": "<div class=\"static-container\"><div class=\"mb-5\">What's New page content</div></div>"
+    },
+    {
+        "slug": "payment-policy",
+        "title": "Payment Policy",
+        "html": "<div class=\"static-container\"><div class=\"mb-5\">Payment Policy Page Content</div></div>"
+    },
+    {
+        "slug": "shipping-policy",
+        "title": "Shipping Policy",
+        "html": "<div class=\"static-container\"><div class=\"mb-5\">Shipping Policy Page Content</div></div>"
+    },
+    {
+        "slug": "privacy-policy",
+        "title": "Privacy Policy",
+        "html": "<div class=\"static-container\"><div class=\"mb-5\">Privacy Policy Page Content</div></div>"
+    }
+]

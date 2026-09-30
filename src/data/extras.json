@@ -1,0 +1,209 @@
+{
+    "downloadable": {
+        "45": [
+            {
+                "id": 1,
+                "title": "Beginner Yoga Tutorial",
+                "price": 24.99,
+                "has_sample": true
+            },
+            {
+                "id": 2,
+                "title": "High Quality Yoga Tutorials",
+                "price": 24.99,
+                "has_sample": true
+            }
+        ],
+        "100": [
+            {
+                "id": 3,
+                "title": "Learn to Play Guitar",
+                "price": 24.99,
+                "has_sample": true
+            }
+        ],
+        "102": [
+            {
+                "id": 4,
+                "title": "Champions Mindset",
+                "price": 24.99,
+                "has_sample": true
+            }
+        ]
+    },
+    "booking": {
+        "121": {
+            "type": "default",
+            "location": "1330 Huffman Rd, City/Town - Anchorage, Alaska, United States of America, Zip Code - 99515",
+            "qty": 10
+        },
+        "122": {
+            "type": "appointment",
+            "location": "9528 25 Hwy, City - Halton Hills, Ontario, Canada, Zip Code - 123456",
+            "qty": 10
+        },
+        "123": {
+            "type": "event",
+            "location": "1355 S White Sands Blvd, City/Town Alamogordo, New Mexico, United States of America, Zip Code - 88310",
+            "qty": 0
+        },
+        "124": {
+            "type": "rental",
+            "location": "333 S. Grand Avenue 25 Fl. City/Town - Los Angeles, California, United States of America, Zip - 90071",
+            "qty": 10
+        },
+        "125": {
+            "type": "table",
+            "location": "3128 W 2nd Street, East Taliafield, Delaware - 64509, Saudi Arabia",
+            "qty": 20
+        }
+    },
+    "bundle": {
+        "58": [
+            {
+                "id": 1,
+                "label": "Select Jeans",
+                "type": "radio",
+                "is_required": true,
+                "products": [
+                    {
+                        "id": 1,
+                        "name": "Urban Slate Men's Grey Denim Jeans-28",
+                        "price": 35.99,
+                        "qty": 1,
+                        "is_default": true
+                    },
+                    {
+                        "id": 2,
+                        "name": "Urban Slate Men's Grey Denim Jeans-30",
+                        "price": 35.99,
+                        "qty": 1,
+                        "is_default": false
+                    },
+                    {
+                        "id": 3,
+                        "name": "Urban Slate Men's Grey Denim Jeans-32",
+                        "price": 35.99,
+                        "qty": 1,
+                        "is_default": false
+                    },
+                    {
+                        "id": 4,
+                        "name": "Urban Slate Men's Grey Denim Jeans-34",
+                        "price": 35.99,
+                        "qty": 1,
+                        "is_default": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "label": "Select Jacket",
+                "type": "radio",
+                "is_required": true,
+                "products": [
+                    {
+                        "id": 5,
+                        "name": "Coastal Breeze Men's Blue Zipper Hoodie-S",
+                        "price": 50.99,
+                        "qty": 1,
+                        "is_default": true
+                    },
+                    {
+                        "id": 6,
+                        "name": "Coastal Breeze Men's Blue Zipper Hoodie-M",
+                        "price": 50.99,
+                        "qty": 1,
+                        "is_default": false
+                    },
+                    {
+                        "id": 7,
+                        "name": "Coastal Breeze Men's Blue Zipper Hoodie-L",
+                        "price": 50.99,
+                        "qty": 1,
+                        "is_default": false
+                    },
+                    {
+                        "id": 8,
+                        "name": "Coastal Breeze Men's Blue Zipper Hoodie-XL",
+                        "price": 50.99,
+                        "qty": 1,
+                        "is_default": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "label": "Select T-Shirt",
+                "type": "radio",
+                "is_required": true,
+                "products": [
+                    {
+                        "id": 9,
+                        "name": "Azure Comfort Full Sleeve T-Shirt-S",
+                        "price": 24.99,
+                        "qty": 1,
+                        "is_default": true
+                    },
+                    {
+                        "id": 10,
+                        "name": "Azure Comfort Full Sleeve T-Shirt-M",
+                        "price": 24.99,
+                        "qty": 1,
+                        "is_default": false
+                    },
+                    {
+                        "id": 11,
+                        "name": "Azure Comfort Full Sleeve T-Shirt - L",
+                        "price": 24.99,
+                        "qty": 1,
+                        "is_default": false
+                    },
+                    {
+                        "id": 12,
+                        "name": "Azure Comfort Full Sleeve T-Shirt - XL",
+                        "price": 24.99,
+                        "qty": 1,
+                        "is_default": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "label": "Select Shoes",
+                "type": "radio",
+                "is_required": true,
+                "products": [
+                    {
+                        "id": 13,
+                        "name": "PureStride Men's Classic White Sneakers-06",
+                        "price": 56.99,
+                        "qty": 1,
+                        "is_default": true
+                    },
+                    {
+                        "id": 14,
+                        "name": "PureStride Men's Classic White Sneakers-07",
+                        "price": 56.99,
+                        "qty": 1,
+                        "is_default": false
+                    },
+                    {
+                        "id": 15,
+                        "name": "PureStride Men's Classic White Sneakers-08",
+                        "price": 56.99,
+                        "qty": 1,
+                        "is_default": false
+                    },
+                    {
+                        "id": 16,
+                        "name": "PureStride Men's Classic White Sneakers-09",
+                        "price": 56.99,
+                        "qty": 1,
+                        "is_default": false
+                    }
+                ]
+            }
+        ]
+    }
+}
