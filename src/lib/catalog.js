@@ -14,6 +14,15 @@ export const isOnSale = (product) => !!product.special_price && product.special_
 
 export const baseImage = (product) => product.images?.[0] || PLACEHOLDER;
 
+/** Cart / order line image: the saved design preview for customized items (Bagisto getBaseImage override). */
+export const itemImage = (item) =>
+    item.customized_preview || baseImage(item.product || findProductById(item.productId) || {});
+
+/** Products needing options go to the product page instead of straight into the cart. */
+export const needsOptions = (product) =>
+    ['configurable', 'bundle', 'booking', 'grouped', 'downloadable'].includes(product.type)
+    || (product.customizable_options || []).some((option) => option.is_required);
+
 /** Mock ratings so cards and reviews have something to show. */
 export const ratingsFor = (product) => {
     const total = product.id % 3 === 0 ? 0 : (product.id % 7) + 2;

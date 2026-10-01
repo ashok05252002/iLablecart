@@ -6,7 +6,7 @@ import Layout from '../../components/layout/Layout';
 import { Coupon } from '../../components/products/CartSummary';
 import { Accordion, Breadcrumbs, Checkbox, FieldError, Spinner } from '../../components/ui';
 import { paymentMethods, shippingMethods } from '../../data/account';
-import { baseImage, formatPrice } from '../../lib/catalog';
+import { formatPrice, itemImage } from '../../lib/catalog';
 import { t } from '../../lib/i18n';
 import { useStore } from '../../store/StoreContext';
 
@@ -361,7 +361,7 @@ function Summary({ shippingPrice }) {
                     <div key={item.id} className="flex gap-x-4 pb-5 max-md:gap-x-3 max-md:pb-4">
                         <img
                             className="h-[90px] max-h-[90px] w-[90px] max-w-[90px] rounded-xl max-md:h-20 max-md:max-h-20 max-md:max-w-20 max-md:rounded-lg"
-                            src={baseImage(item.product)}
+                            src={itemImage(item)}
                             alt={item.product.name}
                             width="110"
                             height="110"

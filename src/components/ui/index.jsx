@@ -425,7 +425,7 @@ export function Breadcrumbs({ items }) {
 }
 
 /** Spinner used by <x-shop::button> while loading. */
-export function Spinner({ className = 'text-blue absolute h-5 w-5 animate-spin' }) {
+export function Spinner({ className = 'text-navyBlue absolute h-5 w-5 animate-spin' }) {
     return (
         <svg className={className} xmlns="http://www.w3.org/2000/svg" fill="none" aria-hidden="true" viewBox="0 0 24 24">
             <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />

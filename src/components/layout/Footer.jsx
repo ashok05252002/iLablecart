@@ -76,8 +76,8 @@ export default function Footer() {
 
                 <Accordion
                     defaultOpen={false}
-                    className="hidden !w-full rounded-xl !border-2 !border-[#e9decc] max-1060:block max-sm:rounded-lg"
-                    headerClass="rounded-t-lg bg-[#F1EADF] font-medium max-md:p-2.5 max-sm:px-3 max-sm:py-2 max-sm:text-sm"
+                    className="hidden !w-full rounded-xl !border-2 !border-[#D9DCD9] max-1060:block max-sm:rounded-lg"
+                    headerClass="rounded-t-lg bg-[#E7E9E7] font-medium max-md:p-2.5 max-sm:px-3 max-sm:py-2 max-sm:text-sm"
                     contentClass="grid grid-cols-[repeat(auto-fill,minmax(140px,1fr))] items-start gap-x-6 gap-y-8 !bg-transparent !p-4"
                     header={t('components.layouts.footer.footer-content')}
                 >
@@ -109,7 +109,7 @@ export default function Footer() {
                                     name="email"
                                     value={email}
                                     onChange={(event) => setEmail(event.target.value)}
-                                    className="mb-1.5 w-full rounded-lg border px-5 py-3 text-base font-normal text-gray-600 transition-all hover:border-gray-400 focus:border-gray-400 max-sm:px-4 max-md:py-2 max-sm:text-sm block w-[420px] max-w-full rounded-xl border-2 border-[#e9decc] bg-[#F1EADF] px-5 py-4 text-base max-1060:w-full max-md:p-3.5 max-sm:mb-0 max-sm:rounded-lg max-sm:border-2 max-sm:p-2 max-sm:text-sm"
+                                    className="mb-1.5 w-full rounded-lg border px-5 py-3 text-base font-normal text-gray-600 transition-all hover:border-gray-400 focus:border-gray-400 max-sm:px-4 max-md:py-2 max-sm:text-sm block w-[420px] max-w-full rounded-xl border-2 border-[#D9DCD9] bg-[#E7E9E7] px-5 py-4 text-base max-1060:w-full max-md:p-3.5 max-sm:mb-0 max-sm:rounded-lg max-sm:border-2 max-sm:p-2 max-sm:text-sm"
                                     aria-label={t('components.layouts.footer.email')}
                                     placeholder="email@example.com"
                                 />
@@ -128,8 +128,8 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className="flex justify-between bg-[#F1EADF] px-[60px] py-3.5 max-md:justify-center max-sm:px-5">
-                <p className="text-sm text-zinc-600 max-md:text-center">
+            <div className="flex justify-between border-t-2 border-gold bg-navyBlue px-[60px] py-3.5 max-md:justify-center max-sm:px-5">
+                <p className="text-sm text-white max-md:text-center">
                     {t('components.layouts.footer.footer-text', { current_year: new Date().getFullYear() })}
                 </p>
             </div>

@@ -8,7 +8,7 @@ const StoreContext = createContext(null);
 function usePersistentState(key, initial) {
     const [value, setValue] = useState(() => {
         try {
-            const stored = localStorage.getItem(`bagisto-ui:${key}`);
+            const stored = localStorage.getItem(`print-shop-ui:${key}`);
 
             return stored ? JSON.parse(stored) : initial;
         } catch {
@@ -18,7 +18,7 @@ function usePersistentState(key, initial) {
 
     useEffect(() => {
         try {
-            localStorage.setItem(`bagisto-ui:${key}`, JSON.stringify(value));
+            localStorage.setItem(`print-shop-ui:${key}`, JSON.stringify(value));
         } catch {
             // Storage can be unavailable (private mode); state still works in memory.
         }
@@ -49,8 +49,12 @@ export function StoreProvider({ children }) {
         [dismissFlash],
     );
 
-    const addToCart = (product, quantity = 1, options = []) => {
-        const key = `${product.id}:${JSON.stringify(options)}`;
+    /**
+     * customization mirrors the "additional" data the Bagisto designer posts with the cart item:
+     * { customized, customized_preview, customized_images, shirt_color }. Every design is its own line.
+     */
+    const addToCart = (product, quantity = 1, options = [], customization = null, message = null) => {
+        const key = customization ? `${product.id}:design:${Date.now()}` : `${product.id}:${JSON.stringify(options)}`;
 
         setCartItems((items) => {
             const existing = items.find((item) => item.key === key);
@@ -59,10 +63,10 @@ export function StoreProvider({ children }) {
                 return items.map((item) => (item.key === key ? { ...item, quantity: item.quantity + quantity } : item));
             }
 
-            return [...items, { id: Date.now(), key, productId: product.id, quantity, options }];
+            return [...items, { id: Date.now(), key, productId: product.id, quantity, options, ...(customization || {}) }];
         });
 
-        flash('success', t('checkout.cart.item-add-to-cart'));
+        flash('success', message || t('checkout.cart.item-add-to-cart'));
     };
 
     const updateCartItem = (id, quantity) =>
@@ -89,7 +93,8 @@ export function StoreProvider({ children }) {
                     return null;
                 }
 
-                const price = finalPrice(product);
+                // Customizable option prices are added on top, as Bagisto does for simple products
+                const price = finalPrice(product) + item.options.reduce((sum, option) => sum + (option.price || 0), 0);
 
                 return { ...item, product, price, total: price * item.quantity };
             })
@@ -192,6 +197,10 @@ export function StoreProvider({ children }) {
                 quantity: item.quantity,
                 total: item.total,
                 options: item.options,
+                customized: item.customized,
+                customized_preview: item.customized_preview,
+                customized_images: item.customized_images,
+                shirt_color: item.shirt_color,
             })),
             sub_total: cart.subTotal,
             discount: cart.discount,

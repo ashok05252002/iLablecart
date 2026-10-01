@@ -1,3 +1,4 @@
+import { lazy, Suspense } from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import { ProductOrCategory, Search } from './pages/Catalog';
 import Cart from './pages/checkout/Cart';
@@ -11,6 +12,9 @@ import Home from './pages/Home';
 import NotFound from './pages/NotFound';
 import { CmsPage, Compare, ContactUs } from './pages/Pages';
 
+// The designer pulls in fabric.js, so it is loaded only when a customer opens it
+const Customize = lazy(() => import('./pages/Customize'));
+
 /** Routes mirror the Bagisto storefront URLs so links can be shared 1:1 with the real store. */
 export default function App() {
     return (
@@ -20,6 +24,8 @@ export default function App() {
             <Route path="/compare" element={<Compare />} />
             <Route path="/contact-us" element={<ContactUs />} />
             <Route path="/page/:slug" element={<CmsPage />} />
+
+            <Route path="/customize/:id" element={<Suspense fallback={null}><Customize /></Suspense>} />
 
             <Route path="/checkout/cart" element={<Cart />} />
             <Route path="/checkout/onepage" element={<Checkout />} />

@@ -1,6 +1,6 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { t } from '../../lib/i18n';
-import { baseImage, formatPrice, isOnSale, ratingsFor } from '../../lib/catalog';
+import { baseImage, formatPrice, isOnSale, needsOptions, ratingsFor } from '../../lib/catalog';
 import { useStore } from '../../store/StoreContext';
 import { Ratings, cx } from '../ui';
 
@@ -42,8 +42,6 @@ export function Price({ product }) {
     );
 }
 
-/** Products needing options go to the product page instead of straight into the cart. */
-const needsOptions = (product) => ['configurable', 'bundle', 'booking', 'grouped', 'downloadable'].includes(product.type);
 
 function useCardActions(product) {
     const { addToCart, toggleWishlist, addToCompare, wishlist, flash } = useStore();

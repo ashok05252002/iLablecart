@@ -19,7 +19,7 @@ export default function Success() {
                     <p className="text-xl max-md:text-sm">
                         {before}
                         {customer ? (
-                            <Link className="text-blue-700" to={`/customer/account/orders/view/${orderId}`}>
+                            <Link className="text-brand-700" to={`/customer/account/orders/view/${orderId}`}>
                                 {orderId}
                             </Link>
                         ) : (

@@ -6,7 +6,7 @@ import { findCategoryById, productsInCategory, sortProducts } from '../lib/catal
 /** Port of home/index.blade.php: renders the theme sections in order. */
 export default function Home() {
     return (
-        <Layout title="Demo store">
+        <Layout title="Sainmarks">
             {sections.map((section) => {
                 const options = section.options;
 

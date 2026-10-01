@@ -7,7 +7,8 @@ import {
     Checkbox, ControlGroup, Dropdown, FieldError, Input, Label, Modal, PasswordInput, QuantityChanger, Select, Stars, Textarea, useConfirm,
 } from '../../components/ui';
 import { mockDownloads, mockReviews } from '../../data/account';
-import { baseImage, findProductById, finalPrice, formatPrice } from '../../lib/catalog';
+import { baseImage, findProductById, finalPrice, formatPrice, needsOptions } from '../../lib/catalog';
+import { CustomizedViews } from '../../components/products/Customized';
 import { t } from '../../lib/i18n';
 import { useStore } from '../../store/StoreContext';
 
@@ -504,7 +505,9 @@ export function OrderView() {
             const product = findProductById(item.productId);
 
             if (product) {
-                addToCart(product, item.quantity, item.options);
+                const { customized, customized_preview, customized_images, shirt_color } = item;
+
+                addToCart(product, item.quantity, item.options, customized ? { customized, customized_preview, customized_images, shirt_color } : null);
             }
         }
 
@@ -566,8 +569,8 @@ export function OrderView() {
                                 </thead>
 
                                 <tbody>
-                                    {order.items.map((item) => (
-                                        <tr key={item.sku} className="border-b bg-white align-top font-medium [&>*]:px-6 [&>*]:py-4">
+                                    {order.items.map((item, index) => (
+                                        <tr key={`${item.sku}-${index}`} className="border-b bg-white align-top font-medium [&>*]:px-6 [&>*]:py-4">
                                             <td>{item.sku}</td>
                                             <td>
                                                 {item.name}
@@ -576,6 +579,7 @@ export function OrderView() {
                                                         {option.attribute_name}: {option.option_label}
                                                     </p>
                                                 ))}
+                                                <CustomizedViews item={item} />
                                             </td>
                                             <td>{formatPrice(item.price)}</td>
                                             <td>
@@ -680,7 +684,7 @@ export function Downloads() {
                             key: 'title',
                             label: label('title'),
                             render: (record) => (
-                                <a href="#download" className="text-blue-600" onClick={(event) => event.preventDefault()}>
+                                <a href="#download" className="text-brand-600" onClick={(event) => event.preventDefault()}>
                                     {record.title}
                                 </a>
                             ),
@@ -793,7 +797,7 @@ function WishlistItem({ product, onRemove, onMoveToCart }) {
 
                 <div className="max-md:hidden">
                     <p className="text-lg font-semibold">{formatPrice(finalPrice(product))}</p>
-                    <div className="flex cursor-pointer justify-end text-base text-blue-700" onClick={onRemove}>
+                    <div className="flex cursor-pointer justify-end text-base text-brand-700" onClick={onRemove}>
                         {t('customers.account.wishlist.remove')}
                     </div>
                 </div>
@@ -815,7 +819,7 @@ export function Wishlist() {
         });
 
     const moveToCart = (product, quantity) => {
-        if (['configurable', 'bundle', 'booking', 'downloadable'].includes(product.type)) {
+        if (needsOptions(product)) {
             flash('warning', t('checkout.cart.missing-options'));
             navigate(`/${product.slug}`);
 

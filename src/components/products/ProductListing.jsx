@@ -19,26 +19,21 @@ const LIMITS = [12, 24, 36, 48];
 const DEFAULTS = { sort: 'price-desc', limit: 12, mode: 'grid' };
 
 const OPTION_FILTERS = [
-    {
-        code: 'color',
-        name: 'Color',
-        options: ['Red', 'Green', 'Yellow', 'Black', 'White', 'Orange', 'Blue', 'Pink', 'Purple', 'Grey', 'Dual Tone', 'Brown'],
-    },
-    { code: 'size', name: 'Size', options: ['S', 'M', 'L', 'XL', 'XXL', 'Free Size'] },
-    { code: 'brand', name: 'Brand', options: ['Adidas', 'Nike', 'Elegance'] },
+    { code: 'color', name: 'Color', options: ['Black', 'White', 'Grey', 'Navy'] },
+    { code: 'size', name: 'Size', options: ['S', 'M', 'L', 'XL', 'XXL'] },
 ];
 
-/** Mock brand so the Brand filter has something to match. */
-const brandOf = (product) => ['Adidas', 'Nike', 'Elegance'][product.id % 3];
-
 function productMatches(product, code, values) {
-    if (code === 'brand') {
-        return values.includes(brandOf(product));
-    }
-
     const attribute = product.super_attributes.find((item) => item.code === code);
 
-    return !!attribute && attribute.options.some((option) => values.includes(option.label));
+    if (attribute) {
+        return attribute.options.some((option) => values.includes(option.label));
+    }
+
+    // Simple products carry Size as a customizable option
+    const option = (product.customizable_options || []).find((item) => item.label.toLowerCase() === code);
+
+    return !!option && option.options.some((item) => values.includes(item.label));
 }
 
 /** Port of components/range-slider (two overlaid range inputs). */
@@ -366,7 +361,7 @@ export default function ProductListing({ products }) {
 
     const applied = {};
 
-    for (const code of ['color', 'size', 'brand']) {
+    for (const code of ['color', 'size']) {
         if (params.get(code)) {
             applied[code] = params.get(code).split(',');
         }

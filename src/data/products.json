@@ -1,243 +1,289 @@
 [
   {
-    "id": 1,
-    "sku": "ws-blossom-skirt",
-    "type": "configurable",
-    "name": "Blossom Breeze Cotton Printed Short Skirt",
-    "slug": "blossom-breeze-cotton-printed-short-skirt",
-    "short_description": "Embrace the playful elegance of our Blossom Breeze Cotton Printed Short Skirt. Crafted from high-quality cotton fabric and adorned with a delightful print, this skirt is perfect for those seeking a blend of comfort and style in their summer wardrobe.",
-    "description": "<p>Introducing the Blossom Breeze Cotton Printed Short Skirt, a charming addition to your summer wardrobe. Made from premium quality cotton, this skirt offers a soft and breathable feel, ensuring comfort all day long. The delightful print features blossoms and intricate patterns, adding a touch of playfulness to your ensemble.</p><br><p>The A-line silhouette of the Blossom Breeze skirt is designed to provide a flattering fit, accentuating your curves in all the right ways. The length is just perfect, offering a balance between style and ease of movement, making it ideal for casual outings, picnics, or a day at the beach.</p><br><p>Pair this skirt with a simple tank top or a cropped blouse to complete the look. Add sandals and minimal accessories for a laid-back summer vibe or dress it up with wedges and statement jewelry for a more elevated appearance. The Blossom Breeze Cotton Printed Short Skirt is a versatile piece that effortlessly adapts to your style and the occasion.</p><br><p>Experience the epitome of summer fashion with our Blossom Breeze Cotton Printed Short Skirt. Let the vibrant print and comfortable fabric make a statement as you embrace the sun-kissed season with confidence and style.</p>",
-    "price": 24.99,
+    "sku": "custom-cotton-tshirt",
+    "type": "simple",
+    "short_description": "180 GSM 100% combed cotton round neck tee. Click \"Customize\" to add your text, logo or artwork on the front, back and both sleeves.",
+    "description": "<p>Our best-selling blank for custom printing. 180 GSM, 100% combed ring-spun cotton with a soft bio-washed finish, ribbed collar and double-stitched hems.</p><br><p><b>Print areas:</b> Front (12 x 12 in), Back (12 x 12 in), Left and Right sleeve.</p><br><p><b>Printing:</b> DTF or screen print depending on quantity. Bulk orders welcome for teams, events and brands.</p>",
     "special_price": null,
     "is_new": true,
     "is_featured": true,
-    "categories": [
-      4,
-      10
-    ],
-    "images": [
-      "/images/products/1/1.webp",
-      "/images/products/1/2.webp"
-    ],
-    "super_attributes": [
+    "super_attributes": [],
+    "is_customizable": true,
+    "customizer": "tshirt",
+    "customizable_options": [
       {
-        "code": "waist_size_male_and_female",
-        "label": "Waist Size",
-        "swatch_type": "text",
+        "label": "Size",
+        "type": "select",
+        "is_required": true,
         "options": [
           {
-            "id": 16,
-            "label": "24",
-            "swatch": null
+            "label": "S",
+            "price": 0
           },
           {
-            "id": 17,
-            "label": "28",
-            "swatch": null
+            "label": "M",
+            "price": 0
           },
           {
-            "id": 18,
-            "label": "30",
-            "swatch": null
+            "label": "L",
+            "price": 0
+          },
+          {
+            "label": "XL",
+            "price": 0
+          },
+          {
+            "label": "XXL",
+            "price": 1
           }
         ]
       }
     ],
-    "created_at": "2026-09-24 11:07:02"
-  },
-  {
-    "id": 5,
-    "sku": "wj-skyline-jeans",
-    "type": "configurable",
-    "name": "Skyline Elegance High Rise Slim Fit Women's Jeans",
-    "slug": "skyline-elegance-high-rise-slim-fit-womens-jeans",
-    "short_description": "Step into sophistication with our Skyline Elegance High Rise Slim Fit Women's Jeans. The high rise design, coupled with a slim fit, offers a modern and flattering silhouette. Made from premium denim, these jeans provide both comfort and durability. Elevate your style effortlessly with this versatile wardrobe essential.",
-    "description": "<p>Introducing Skyline Elegance High Rise Slim Fit Women's Jeans, a harmonious blend of contemporary design and timeless comfort. These jeans feature a high rise design, providing a modern silhouette that elongates your legs and flatters your figure. The slim fit accentuates your natural curves, offering a sleek and chic appearance.</p><br><p>Crafted from a premium cotton-elastane blend, the denim used in these jeans ensures durability, comfort, and a touch of stretch for ease of movement. The classic five-pocket styling adds both style and convenience to your everyday wear.</p><br><p>The button and zipper closure not only secure the jeans in place but also contribute to the overall stylish finish of the garment. Versatile and trendy, these jeans can be effortlessly paired with a variety of tops and shoes, making them suitable for different occasions and outfit styles.</p><br><p>Elevate your fashion game and embrace the sophistication of Skyline Elegance High Rise Slim Fit Women's Jeans. Experience the perfect balance of comfort, style, and durability with this essential piece for every fashion-forward woman. Let these jeans redefine your wardrobe and make a statement wherever you go.</p>",
-    "price": 54.99,
-    "special_price": null,
-    "is_new": true,
-    "is_featured": true,
-    "categories": [
-      4,
-      10
-    ],
-    "images": [
-      "/images/products/8/1.webp",
-      "/images/products/8/2.webp"
-    ],
-    "super_attributes": [
-      {
-        "code": "waist_size_male_and_female",
-        "label": "Waist Size",
-        "swatch_type": "text",
-        "options": [
-          {
-            "id": 16,
-            "label": "24",
-            "swatch": null
-          },
-          {
-            "id": 17,
-            "label": "28",
-            "swatch": null
-          },
-          {
-            "id": 18,
-            "label": "30",
-            "swatch": null
-          },
-          {
-            "id": 19,
-            "label": "32",
-            "swatch": null
-          }
-        ]
-      }
-    ],
-    "created_at": "2026-09-24 11:07:02"
-  },
-  {
-    "id": 10,
-    "sku": "wf-bloom-heels",
-    "type": "configurable",
-    "name": "Elegance in Bloom Women's Black Floral Heels with Stylish Bow",
-    "slug": "elegance-in-bloom-womens-black-floral-heels-with-stylish-bow",
-    "short_description": "Step into elegance with our Elegance in Bloom Women's Black Floral Heels, featuring a stunning black floral pattern and a stylish bow detail. These heels are not only beautiful but also comfortable, making them perfect for various formal occasions. The secure buckle closure ensures a snug fit.",
-    "description": "<p>Introducing our Elegance in Bloom Women's Black Floral Heels with a Stylish Bow, the perfect footwear to elevate your style and add a touch of sophistication to your ensemble.</p><br><p>The exquisite black floral pattern on these heels is a visual delight, giving your look a sense of elegance and charm. The stylish bow detail adds an extra layer of sophistication, making these heels suitable for various formal occasions, from weddings to cocktail parties.</p><br><p>Crafted with sturdy and comfortable heels, these shoes are designed for all-day wear, allowing you to dance the night away without discomfort. The secure and adjustable buckle closure ensures a snug and secure fit, so you can walk with confidence.</p><br><p>Elevate your style and add a touch of elegance to your every step with our Elegance in Bloom Women's Black Floral Heels. These heels are not just shoes; they are a statement of your refined taste and style. Step into these stunning heels, and let the world see your beauty and grace.</p>",
-    "price": 79.99,
-    "special_price": null,
-    "is_new": true,
-    "is_featured": true,
-    "categories": [
-      4,
-      12
-    ],
-    "images": [
-      "/images/products/18/1.webp",
-      "/images/products/18/2.webp"
-    ],
-    "super_attributes": [
-      {
-        "code": "select_size_female_footwear",
-        "label": "Select Size Female Footwear",
-        "swatch_type": "text",
-        "options": [
-          {
-            "id": 27,
-            "label": "5",
-            "swatch": null
-          },
-          {
-            "id": 28,
-            "label": "6",
-            "swatch": null
-          },
-          {
-            "id": 29,
-            "label": "7",
-            "swatch": null
-          },
-          {
-            "id": 30,
-            "label": "8",
-            "swatch": null
-          }
-        ]
-      }
-    ],
-    "created_at": "2026-09-24 11:07:02"
-  },
-  {
-    "id": 15,
-    "sku": "ks-trendsetter-shoes",
-    "type": "configurable",
-    "name": "Young Trendsetter Boys' Designer and Fashionable Running Shoes",
-    "slug": "young-trendsetter-boys-designer-and-fashionable-running-shoes",
-    "short_description": "Empower the trendsetters of tomorrow with Young Trendsetter Boys' Designer and Fashionable Running Shoes. These stylish and designer shoes are perfect for young individuals who want to make a fashion statement while staying active. Designed for sports, active pursuits, and everyday adventures, they offer comfort, durability, and a secure fit with a lace-up closure.",
-    "description": "<p>Introducing our Young Trendsetter Boys' Designer and Fashionable Running Shoes, a pair of footwear designed for the young fashion-forward individuals who are always on the move.</p><br><p>These running shoes are not your average pair; they are a fashion statement in themselves. Designed with a stylish and trendsetting look, they empower young boys to express their unique style while enjoying their active pursuits. Whether it's sports, running, or everyday adventures, these shoes are made to match the energy and style of young trendsetters.</p><br><p>Comfort is key, and these shoes ensure that young boys can stay active for hours without discomfort. The high-quality synthetic leather and mesh materials guarantee that these shoes withstand the wear and tear of active and adventurous young lives.</p><br><p>The lace-up closure not only provides a secure fit but also allows for adjustability, so young individuals can customize the fit to their liking.</p><br><p>Empower the trendsetters of tomorrow with Young Trendsetter Boys' Designer and Fashionable Running Shoes. These shoes are more than just footwear; they are a reflection of individuality, style, and the desire to stand out in the crowd. Let the young trendsetters make a fashion statement with each step they take, embracing both fashion and an active lifestyle.</p>",
-    "price": 74.99,
-    "special_price": null,
-    "is_new": true,
-    "is_featured": true,
-    "categories": [
-      3,
-      16
-    ],
-    "images": [
-      "/images/products/29/1.webp",
-      "/images/products/29/2.webp"
-    ],
-    "super_attributes": [
-      {
-        "code": "color",
-        "label": "Color",
-        "swatch_type": null,
-        "options": [
-          {
-            "id": 1,
-            "label": "Red",
-            "swatch": null
-          },
-          {
-            "id": 3,
-            "label": "Yellow",
-            "swatch": null
-          }
-        ]
-      },
-      {
-        "code": "select_age_group",
-        "label": "Select Age Group (Kids)",
-        "swatch_type": "text",
-        "options": [
-          {
-            "id": 12,
-            "label": "5-7 Y",
-            "swatch": null
-          },
-          {
-            "id": 13,
-            "label": "7-10 Y",
-            "swatch": null
-          },
-          {
-            "id": 14,
-            "label": "10-13 Y",
-            "swatch": null
-          },
-          {
-            "id": 15,
-            "label": "13-16 Y",
-            "swatch": null
-          }
-        ]
-      }
-    ],
-    "created_at": "2026-09-24 11:07:03"
-  },
-  {
-    "id": 24,
-    "sku": "ms-everfresh-tee",
-    "type": "configurable",
-    "name": "EverFresh Men's Wrinkle-Free Half Sleeve 100% Cotton Tee",
-    "slug": "everfresh-mens-wrinkle-free-half-sleeve-100-cotton-tee",
-    "short_description": "Experience the perfect balance of comfort and style with our EverFresh Men's Wrinkle-Free Half Sleeve Cotton Tee. Crafted from premium 100% cotton, this tee features anti-shrink technology, ensuring a lasting fit. Stay neat and sharp all day with the wrinkle-free feature. A must-have for your casual and versatile wardrobe.",
-    "description": "<p>Introducing EverFresh Men's Wrinkle-Free Half Sleeve Cotton Tee, a testament to uncompromised comfort and a well-groomed appearance. Made from 100% premium cotton, this tee offers a luxurious softness against your skin and promotes breathability, making it an ideal choice for your daily wear.</p><br><p>The wrinkle-free technology ensures that your tee remains crisp and neat throughout the day, allowing you to maintain a polished look effortlessly. Additionally, the anti-shrink feature guarantees that the tee retains its original fit even after numerous washes, providing you with a long-lasting favorite.</p><br><p>The half sleeves offer versatility, making this tee suitable for a wide range of occasions and weather. The classic design makes it a timeless wardrobe essential that pairs effortlessly with jeans, shorts, or your favorite bottoms.</p><br><p>Elevate your comfort and style with EverFresh Men's Wrinkle-Free Half Sleeve Cotton Tee. Experience a tee that doesn't compromise on quality, giving you the confidence to conquer your day in a sharp and refined manner.</p>",
-    "price": 42.99,
-    "special_price": null,
-    "is_new": true,
-    "is_featured": true,
+    "created_at": "2026-09-01 10:00:00",
+    "id": 147,
+    "name": "Classic Round Neck Cotton T-Shirt",
+    "slug": "customizable-cotton-t-shirt",
+    "price": 12.99,
     "categories": [
       2,
-      6,
+      5
+    ],
+    "images": [
+      "/images/products/147/1.webp",
+      "/images/products/147/2.webp",
+      "/images/products/147/3.webp",
+      "/images/products/147/4.webp"
+    ]
+  },
+  {
+    "sku": "custom-polo-tshirt",
+    "type": "simple",
+    "short_description": "220 GSM cotton pique polo with a ribbed collar. Ideal for corporate uniforms. Customize with your company logo on chest, back and sleeves.",
+    "description": "<p>A smart, breathable 220 GSM cotton pique polo, the go-to choice for company uniforms and events.</p><br><p><b>Print areas:</b> Front, Back, Left and Right sleeve. Logo embroidery available on request for bulk orders.</p>",
+    "special_price": 16.99,
+    "is_new": false,
+    "is_featured": true,
+    "super_attributes": [],
+    "is_customizable": true,
+    "customizer": "tshirt",
+    "customizable_options": [
+      {
+        "label": "Size",
+        "type": "select",
+        "is_required": true,
+        "options": [
+          {
+            "label": "S",
+            "price": 0
+          },
+          {
+            "label": "M",
+            "price": 0
+          },
+          {
+            "label": "L",
+            "price": 0
+          },
+          {
+            "label": "XL",
+            "price": 0
+          },
+          {
+            "label": "XXL",
+            "price": 1.5
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-09-02 10:00:00",
+    "id": 201,
+    "name": "Premium Pique Polo T-Shirt",
+    "slug": "premium-pique-polo-t-shirt",
+    "price": 18.99,
+    "categories": [
+      2,
+      6
+    ],
+    "images": [
+      "/images/products/201/1.webp",
+      "/images/products/201/2.webp",
+      "/images/products/201/3.webp",
+      "/images/products/201/4.webp"
+    ]
+  },
+  {
+    "sku": "custom-oversized-tee",
+    "type": "simple",
+    "short_description": "240 GSM heavyweight oversized tee with drop shoulders. Big back prints look great on this fit.",
+    "description": "<p>Relaxed street-style fit in heavyweight 240 GSM cotton. Perfect for large back prints, merch drops and college fests.</p>",
+    "special_price": null,
+    "is_new": true,
+    "is_featured": false,
+    "super_attributes": [],
+    "is_customizable": true,
+    "customizer": "tshirt",
+    "customizable_options": [
+      {
+        "label": "Size",
+        "type": "select",
+        "is_required": true,
+        "options": [
+          {
+            "label": "S",
+            "price": 0
+          },
+          {
+            "label": "M",
+            "price": 0
+          },
+          {
+            "label": "L",
+            "price": 0
+          },
+          {
+            "label": "XL",
+            "price": 0
+          },
+          {
+            "label": "XXL",
+            "price": 0
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-09-03 10:00:00",
+    "id": 202,
+    "name": "Oversized Drop-Shoulder T-Shirt",
+    "slug": "oversized-drop-shoulder-t-shirt",
+    "price": 15.99,
+    "categories": [
+      2,
       7
     ],
     "images": [
-      "/images/products/43/1.webp",
-      "/images/products/43/2.webp",
-      "/images/products/43/3.webp",
-      "/images/products/43/4.webp"
+      "/images/products/202/1.webp",
+      "/images/products/202/2.webp",
+      "/images/products/202/3.webp"
+    ]
+  },
+  {
+    "sku": "custom-women-fitted-tee",
+    "type": "simple",
+    "short_description": "Slim fitted women's crew neck tee in soft 160 GSM cotton. Customize front, back and sleeves.",
+    "description": "<p>Tailored women's fit in soft 160 GSM cotton with a slightly longer body. Fully customizable.</p>",
+    "special_price": null,
+    "is_new": false,
+    "is_featured": false,
+    "super_attributes": [],
+    "is_customizable": true,
+    "customizer": "tshirt",
+    "customizable_options": [
+      {
+        "label": "Size",
+        "type": "select",
+        "is_required": true,
+        "options": [
+          {
+            "label": "S",
+            "price": 0
+          },
+          {
+            "label": "M",
+            "price": 0
+          },
+          {
+            "label": "L",
+            "price": 0
+          },
+          {
+            "label": "XL",
+            "price": 0
+          },
+          {
+            "label": "XXL",
+            "price": 0
+          }
+        ]
+      }
     ],
+    "created_at": "2026-09-04 10:00:00",
+    "id": 203,
+    "name": "Women's Fitted Crew Neck T-Shirt",
+    "slug": "womens-fitted-crew-neck-t-shirt",
+    "price": 12.99,
+    "categories": [
+      2,
+      5
+    ],
+    "images": [
+      "/images/products/203/1.webp",
+      "/images/products/203/2.webp",
+      "/images/products/203/3.webp"
+    ]
+  },
+  {
+    "sku": "plain-white-tee-pack",
+    "type": "simple",
+    "short_description": "Five plain white 180 GSM cotton tees. Ready to wear or print later.",
+    "description": "<p>Value pack of five plain white round neck tees in 180 GSM cotton.</p>",
+    "special_price": 34.99,
+    "is_new": false,
+    "is_featured": false,
+    "super_attributes": [],
+    "is_customizable": false,
+    "customizer": null,
+    "customizable_options": [
+      {
+        "label": "Size",
+        "type": "select",
+        "is_required": true,
+        "options": [
+          {
+            "label": "S",
+            "price": 0
+          },
+          {
+            "label": "M",
+            "price": 0
+          },
+          {
+            "label": "L",
+            "price": 0
+          },
+          {
+            "label": "XL",
+            "price": 0
+          },
+          {
+            "label": "XXL",
+            "price": 0
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-09-05 10:00:00",
+    "id": 204,
+    "name": "Plain White T-Shirt Pack of 5",
+    "slug": "plain-white-t-shirt-pack-of-5",
+    "price": 39.99,
+    "categories": [
+      2,
+      5
+    ],
+    "images": [
+      "/images/products/204/1.webp",
+      "/images/products/204/2.webp",
+      "/images/products/204/3.webp"
+    ]
+  },
+  {
+    "sku": "printed-graphic-tee",
+    "type": "configurable",
+    "short_description": "Ready-made graphic tee from our in-house design collection. Choose colour and size.",
+    "description": "<p>Bold ready-to-wear graphic print on a 220 GSM oversized cotton tee.</p>",
+    "special_price": null,
+    "is_new": true,
+    "is_featured": false,
     "super_attributes": [
       {
         "code": "color",
@@ -258,6 +304,11 @@
             "id": 46,
             "label": "Grey",
             "swatch": "#949494"
+          },
+          {
+            "id": 47,
+            "label": "Navy",
+            "swatch": "#1F2A5A"
           }
         ]
       },
@@ -294,129 +345,31 @@
         ]
       }
     ],
-    "created_at": "2026-09-24 11:07:03"
-  },
-  {
-    "id": 40,
-    "sku": "kt-citrus-tee",
-    "type": "configurable",
-    "name": "Citrus Bloom Girls' Orange Printed T-Shirt",
-    "slug": "citrus-bloom-girls-orange-printed-t-shirt",
-    "short_description": "Brighten up your little girl's wardrobe with our Citrus Bloom Girls' Orange Printed T-Shirt. The vibrant orange color and playful print make it a lively choice. Crafted from comfortable fabric, this tee is perfect for everyday wear and casual outings, adding a touch of fun and style to her look.",
-    "description": "<p>Introducing the Citrus Bloom Girls' Orange Printed T-Shirt, a burst of energy and style for your little fashionista. The vibrant orange color of this tee is sure to grab attention and bring a lively vibe to any outfit.</p><br><p>The playful print on the shirt adds a touch of whimsy and fun, making it suitable for casual outings, playdates, or any occasion where a dash of cheerfulness is needed.</p><br><p>Crafted from a comfortable and soft cotton blend, this t-shirt ensures a cozy and gentle feel against your child's skin, making it ideal for everyday wear. The short sleeves and casual design make it perfect for those sunny days when comfort and style are a priority.</p><br><p>Let your little one showcase her vibrant personality with the Citrus Bloom Girls' Orange Printed T-Shirt. It's the perfect addition to her wardrobe, adding a pop of color and style to her everyday look. Watch her light up the room with this lively and playful t-shirt.</p>",
-    "price": 29.99,
-    "special_price": null,
-    "is_new": true,
-    "is_featured": true,
-    "categories": [
-      3,
-      13
-    ],
-    "images": [
-      "/images/products/83/1.webp",
-      "/images/products/83/2.webp"
-    ],
-    "super_attributes": [
-      {
-        "code": "select_age_group",
-        "label": "Select Age Group (Kids)",
-        "swatch_type": "text",
-        "options": [
-          {
-            "id": 12,
-            "label": "5-7 Y",
-            "swatch": null
-          },
-          {
-            "id": 13,
-            "label": "7-10 Y",
-            "swatch": null
-          },
-          {
-            "id": 14,
-            "label": "10-13 Y",
-            "swatch": null
-          },
-          {
-            "id": 15,
-            "label": "13-16 Y",
-            "swatch": null
-          }
-        ]
-      }
-    ],
-    "created_at": "2026-09-24 11:07:03"
-  },
-  {
-    "id": 45,
-    "sku": "dl-yoga-tutorial",
-    "type": "downloadable",
-    "name": "Beginner Yoga Tutorial- 300+ HD digital video tutorials for everyday practice",
-    "slug": "beginner-yoga-tutorial--300-hd-digital-video-tutorials-for-everyday-practice",
-    "short_description": "Learn yoga basics and poses with our 300+ video tutorials for complete beginners. Yoga poses for everyday practice, Beginner Friendly\r\nMaterial: HD digital video",
-    "description": "Get ready to learn yoga with our Beginner Yoga Tutorial! This comprehensive tutorial includes 300+ video tutorials for everyday practice. Perfect for those brand new to yoga, this tutorial teaches the basics of yoga in an easy-to-understand and beginner friendly format. Get ready to take your practice to the next level with our Beginner Yoga Tutorial!",
-    "price": 48.99,
-    "special_price": 45.99,
-    "is_new": true,
-    "is_featured": true,
-    "categories": [
-      17,
-      18
-    ],
-    "images": [
-      "/images/products/88/1.webp"
-    ],
-    "super_attributes": [],
-    "created_at": "2026-09-24 11:07:03"
-  },
-  {
-    "id": 58,
-    "sku": "bdl-smartcasual-set",
-    "type": "bundle",
-    "name": "All-in-One Smart Casual Outfit Set",
-    "slug": "all-in-one-smart-casual-outfit-set",
-    "short_description": "Elevate your fashion game with our All-in-One Smart Casual Outfit Set. This complete look includes an open full sleeve smart jacket, a blue full sleeve t-shirt, grey denim jeans, and sneaker shoes. Crafted from high-quality materials, this set offers a coordinated and hassle-free fashion choice for various occasions, ensuring you look stylish and comfortable.",
-    "description": "<p>Introducing the All-in-One Smart Casual Outfit Set, your ticket to effortless style and comfort for various occasions.</p><br><p>This complete outfit set is designed to make your fashion choices easy and stylish. It includes everything you need for a smart and casual look, so you can dress confidently without worrying about coordinating individual pieces.</p><br><p>The open full sleeve smart jacket adds a touch of sophistication to your ensemble. It's perfect for layering and creating a polished look, whether you're heading to the office or a dinner date.</p><br><p>The stylish blue full-sleeve t-shirt is a versatile addition to your wardrobe. It adds a trendy and eye-catching element to your outfit, making it suitable for casual outings, parties, or just hanging out with friends.</p><br><p>The grey denim jeans are a classic choice that offers both style and comfort. They are perfect for various occasions, from a laid-back day at the park to a night out in the city.</p><br><p>Completing the ensemble, the sneaker shoes provide the finishing touch of style and comfort. They are suitable for all-day wear and keep your feet feeling fresh, whether you're running errands or exploring the town.</p><br><p>Each piece of this outfit set is crafted from high-quality materials to ensure comfort and durability. The coordinated look saves you time and effort, so you can focus on enjoying your day.</p><br><p>Elevate your fashion game with the All-in-One Smart Casual Outfit Set. This set is more than just clothing; it's a reflection of your desire for style and convenience. Let it simplify your fashion choices and elevate your look for any occasion, making you stand out with ease and confidence.</p>",
-    "price": 176.96,
-    "special_price": 168.96,
-    "is_new": true,
-    "is_featured": true,
+    "is_customizable": false,
+    "customizer": null,
+    "customizable_options": [],
+    "created_at": "2026-09-06 10:00:00",
+    "id": 205,
+    "name": "Printed Graphic T-Shirt",
+    "slug": "printed-graphic-t-shirt",
+    "price": 17.99,
     "categories": [
       2,
-      6
-    ],
-    "images": [
-      "/images/products/101/1.webp",
-      "/images/products/101/2.webp",
-      "/images/products/101/3.webp",
-      "/images/products/101/4.webp",
-      "/images/products/101/5.webp",
-      "/images/products/101/6.webp"
-    ],
-    "super_attributes": [],
-    "created_at": "2026-09-24 11:07:03"
-  },
-  {
-    "id": 59,
-    "sku": "mj-coastal-hoodie",
-    "type": "configurable",
-    "name": "Coastal Breeze Men's Blue Zipper Hoodie",
-    "slug": "coastal-breeze-mens-blue-zipper-hoodie",
-    "short_description": "Stay warm and stylish with the Coastal Breeze Men's Blue Zipper Hoodie. This fashionable hoodie features a modern design, making it ideal for casual and active wear. The soft and cozy interior lining provides warmth, while the full zipper closure allows for versatile styling and temperature control. Convenient front pockets are perfect for storage and keeping your hands warm.",
-    "description": "<p>The Coastal Breeze Men's Blue Zipper Hoodie is your reliable companion for staying warm, comfortable, and stylish.</p><br><p>This hoodie is designed for the modern man who values both fashion and functionality. The stylish blue design adds a touch of contemporary flair, making it suitable for various occasions, whether you're running errands, heading to the gym, or simply enjoying a relaxed day out.</p><br><p>Warmth is a top priority, and this hoodie delivers. The interior lining is soft and cozy, ensuring that you stay comfortable and warm even in cooler weather. It's the perfect addition to your wardrobe when you need that extra layer of insulation.</p><br><p>The full zipper closure is not just about style; it allows you to control your comfort and temperature easily. You can wear the hoodie fully zipped for maximum warmth or open it up for a more relaxed look. This versatility makes it a go-to choice for various settings.</p><br><p>Convenience is key, and the front pockets provide just that. They are perfect for storing your essentials, whether it's your phone, wallet, or keys. Plus, they keep your hands warm during chilly days.</p><br><p>Crafted from a comfortable and durable cotton blend, this hoodie is designed to withstand everyday wear and maintain its stylish appeal.</p><br><p>Stay warm and stylish with the Coastal Breeze Men's Blue Zipper Hoodie. This hoodie is more than just clothing; it's a reflection of your modern and practical fashion sense. Let it be your reliable choice for staying cozy and fashionable in any situation, ensuring you look and feel your best.</p>",
-    "price": 55.99,
-    "special_price": null,
-    "is_new": true,
-    "is_featured": true,
-    "categories": [
-      2,
-      6,
       7
     ],
     "images": [
-      "/images/products/103/1.webp",
-      "/images/products/103/2.webp"
-    ],
+      "/images/products/205/1.webp",
+      "/images/products/205/2.webp"
+    ]
+  },
+  {
+    "sku": "fleece-hoodie",
+    "type": "configurable",
+    "short_description": "320 GSM brushed fleece hoodie with kangaroo pocket. Logo printing on request for bulk orders.",
+    "description": "<p>Warm 320 GSM cotton-poly fleece hoodie with a double-lined hood and kangaroo pocket.</p>",
+    "special_price": null,
+    "is_new": false,
+    "is_featured": true,
     "super_attributes": [
       {
         "code": "color",
@@ -424,910 +377,562 @@
         "swatch_type": null,
         "options": [
           {
-            "id": 41,
+            "id": 4,
+            "label": "Black",
+            "swatch": null
+          },
+          {
+            "id": 5,
+            "label": "White",
+            "swatch": null
+          },
+          {
+            "id": 46,
+            "label": "Grey",
+            "swatch": "#949494"
+          },
+          {
+            "id": 47,
+            "label": "Navy",
+            "swatch": "#1F2A5A"
+          }
+        ]
+      },
+      {
+        "code": "size",
+        "label": "Size",
+        "swatch_type": null,
+        "options": [
+          {
+            "id": 6,
+            "label": "S",
+            "swatch": null
+          },
+          {
+            "id": 7,
+            "label": "M",
+            "swatch": null
+          },
+          {
+            "id": 8,
+            "label": "L",
+            "swatch": null
+          },
+          {
+            "id": 9,
+            "label": "XL",
+            "swatch": null
+          },
+          {
+            "id": 10,
+            "label": "XXL",
+            "swatch": null
+          }
+        ]
+      }
+    ],
+    "is_customizable": false,
+    "customizer": null,
+    "customizable_options": [],
+    "created_at": "2026-09-07 10:00:00",
+    "id": 206,
+    "name": "Fleece Pullover Hoodie",
+    "slug": "fleece-pullover-hoodie",
+    "price": 29.99,
+    "categories": [
+      3
+    ],
+    "images": [
+      "/images/products/206/1.webp",
+      "/images/products/206/2.webp"
+    ]
+  },
+  {
+    "sku": "crew-sweatshirt",
+    "type": "configurable",
+    "short_description": "Soft 300 GSM crew neck sweatshirt with ribbed cuffs and hem.",
+    "description": "<p>Classic crew neck sweatshirt in 300 GSM loopknit cotton.</p>",
+    "special_price": null,
+    "is_new": false,
+    "is_featured": false,
+    "super_attributes": [
+      {
+        "code": "color",
+        "label": "Color",
+        "swatch_type": null,
+        "options": [
+          {
+            "id": 4,
+            "label": "Black",
+            "swatch": null
+          },
+          {
+            "id": 5,
+            "label": "White",
+            "swatch": null
+          },
+          {
+            "id": 46,
+            "label": "Grey",
+            "swatch": "#949494"
+          },
+          {
+            "id": 47,
+            "label": "Navy",
+            "swatch": "#1F2A5A"
+          }
+        ]
+      },
+      {
+        "code": "size",
+        "label": "Size",
+        "swatch_type": null,
+        "options": [
+          {
+            "id": 6,
+            "label": "S",
+            "swatch": null
+          },
+          {
+            "id": 7,
+            "label": "M",
+            "swatch": null
+          },
+          {
+            "id": 8,
+            "label": "L",
+            "swatch": null
+          },
+          {
+            "id": 9,
+            "label": "XL",
+            "swatch": null
+          },
+          {
+            "id": 10,
+            "label": "XXL",
+            "swatch": null
+          }
+        ]
+      }
+    ],
+    "is_customizable": false,
+    "customizer": null,
+    "customizable_options": [],
+    "created_at": "2026-09-08 10:00:00",
+    "id": 207,
+    "name": "Crew Neck Sweatshirt",
+    "slug": "crew-neck-sweatshirt",
+    "price": 24.99,
+    "categories": [
+      3
+    ],
+    "images": [
+      "/images/products/207/1.webp",
+      "/images/products/207/2.webp"
+    ]
+  },
+  {
+    "sku": "custom-metal-pen",
+    "type": "simple",
+    "short_description": "Brushed metal twist ball pen. Click \"Customize\" to engrave your logo or name on the barrel.",
+    "description": "<p>Premium brushed metal twist-action ball pen with a smooth 0.7 mm refill.</p><br><p><b>Print area:</b> Barrel, approx. 50 x 8 mm. Laser engraved for a permanent finish.</p>",
+    "special_price": null,
+    "is_new": true,
+    "is_featured": true,
+    "super_attributes": [],
+    "is_customizable": true,
+    "customizer": "pen",
+    "customizable_options": [
+      {
+        "label": "Ink Colour",
+        "type": "select",
+        "is_required": true,
+        "options": [
+          {
             "label": "Blue",
-            "swatch": "#0000ff"
-          }
-        ]
-      },
-      {
-        "code": "size",
-        "label": "Size",
-        "swatch_type": null,
-        "options": [
-          {
-            "id": 6,
-            "label": "S",
-            "swatch": null
+            "price": 0
           },
           {
-            "id": 7,
-            "label": "M",
-            "swatch": null
-          },
-          {
-            "id": 8,
-            "label": "L",
-            "swatch": null
-          },
-          {
-            "id": 9,
-            "label": "XL",
-            "swatch": null
-          },
-          {
-            "id": 10,
-            "label": "XXL",
-            "swatch": null
+            "label": "Black",
+            "price": 0
           }
         ]
       }
     ],
-    "created_at": "2026-09-24 11:07:03"
-  },
-  {
-    "id": 65,
-    "sku": "wt-powerpulse-bra",
-    "type": "configurable",
-    "name": "PowerPulse Women's High Impact Sports Bra",
-    "slug": "powerpulse-womens-high-impact-sports-bra",
-    "short_description": "Achieve peak performance during your workouts with our PowerPulse Women's High Impact Sports Bra. Designed for intense workouts, this sports bra provides high impact support, moisture-wicking technology, and breathable mesh panels. Embrace the power and style with PowerPulse.",
-    "description": "<p>Introducing PowerPulse Women's High Impact Sports Bra, your essential partner for high-intensity workouts. This sports bra is crafted to provide exceptional support and comfort during intense exercises, making it perfect for running, HIIT, cross-training, and more. The high impact support ensures that you stay in place, no matter how rigorous your workout. The moisture-wicking fabric efficiently manages sweat, keeping you dry and focused. Breathable mesh panels enhance ventilation, providing additional comfort during your sessions. The racerback design not only offers flexibility and ease of movement but also adds a stylish touch to your active look. The wide underbust band ensures a secure fit, giving you the confidence to push your limits. Embrace the power and style of PowerPulse Women's High Impact Sports Bra. Experience the support, the comfort, and the freedom to conquer your workouts. Make a statement with this sports bra and power through your fitness journey.</p>",
-    "price": 67.99,
-    "special_price": null,
-    "is_new": true,
-    "is_featured": true,
+    "created_at": "2026-09-09 10:00:00",
+    "id": 208,
+    "name": "Metal Ball Pen with Laser Engraving",
+    "slug": "metal-ball-pen-laser-engraving",
+    "price": 3.49,
     "categories": [
-      4,
-      11
+      4
     ],
     "images": [
-      "/images/products/129/1.webp",
-      "/images/products/129/2.webp"
-    ],
-    "super_attributes": [
-      {
-        "code": "size",
-        "label": "Size",
-        "swatch_type": null,
-        "options": [
-          {
-            "id": 6,
-            "label": "S",
-            "swatch": null
-          },
-          {
-            "id": 7,
-            "label": "M",
-            "swatch": null
-          },
-          {
-            "id": 8,
-            "label": "L",
-            "swatch": null
-          },
-          {
-            "id": 9,
-            "label": "XL",
-            "swatch": null
-          }
-        ]
-      }
-    ],
-    "created_at": "2026-09-24 11:07:03"
+      "/images/products/208/1.webp",
+      "/images/products/208/2.webp",
+      "/images/products/208/3.webp"
+    ]
   },
   {
-    "id": 74,
-    "sku": "kj-sprouts-jeans",
-    "type": "configurable",
-    "name": "Stylin' Sprouts Denim Diva Jeans",
-    "slug": "stylin-sprouts-denim-diva-jeans",
-    "short_description": "Slim-fit jeans made from soft, stretchy denim with ripped and distressed details for a trendy look.",
-    "description": "Step out in style with our Denim Diva Jeans, the perfect combination of comfort and fashion. Crafted from soft, stretchy denim for an all-day comfortable fit, the slim-fit cut flatters the look while ripped and distressed details add edge. Pair with a casual tee or a dressy top for easy everyday styling.",
-    "price": 40.99,
-    "special_price": null,
-    "is_new": true,
-    "is_featured": true,
-    "categories": [
-      3,
-      13
-    ],
-    "images": [
-      "/images/products/188/1.webp",
-      "/images/products/188/2.webp",
-      "/images/products/188/3.webp"
-    ],
-    "super_attributes": [
-      {
-        "code": "select_age_group",
-        "label": "Select Age Group (Kids)",
-        "swatch_type": "text",
-        "options": [
-          {
-            "id": 12,
-            "label": "5-7 Y",
-            "swatch": null
-          },
-          {
-            "id": 13,
-            "label": "7-10 Y",
-            "swatch": null
-          },
-          {
-            "id": 14,
-            "label": "10-13 Y",
-            "swatch": null
-          }
-        ]
-      }
-    ],
-    "created_at": "2026-09-24 11:07:03"
-  },
-  {
-    "id": 78,
-    "sku": "kt-waverider-tee",
-    "type": "configurable",
-    "name": "WaveRider Boys' Half Sleeve Blue Full Graphic Printed T-Shirt Pack",
-    "slug": "waverider-boys-half-sleeve-blue-full-graphic-printed-t-shirt-pack",
-    "short_description": "A 3-pack of vibrant tees with full graphic prints, made from a comfortable cotton blend for everyday wear.",
-    "description": "Elevate your little boy's style with our WaveRider T-Shirt Pack. It includes three vibrant tees with vivid full graphic prints and a half-sleeve cut for a casual, trendy look. Crafted from a breathable cotton blend for all-day comfort—great for school, outings, and weekends. Mix and match with different bottoms for easy outfits.",
-    "price": 54.99,
-    "special_price": null,
-    "is_new": true,
-    "is_featured": true,
-    "categories": [
-      3,
-      14
-    ],
-    "images": [
-      "/images/products/216/1.webp",
-      "/images/products/216/2.webp",
-      "/images/products/216/3.webp",
-      "/images/products/216/4.webp"
-    ],
-    "super_attributes": [
-      {
-        "code": "select_age_group",
-        "label": "Select Age Group (Kids)",
-        "swatch_type": "text",
-        "options": [
-          {
-            "id": 12,
-            "label": "5-7 Y",
-            "swatch": null
-          },
-          {
-            "id": 13,
-            "label": "7-10 Y",
-            "swatch": null
-          },
-          {
-            "id": 14,
-            "label": "10-13 Y",
-            "swatch": null
-          },
-          {
-            "id": 15,
-            "label": "13-16 Y",
-            "swatch": null
-          }
-        ]
-      }
-    ],
-    "created_at": "2026-09-24 11:07:03"
-  },
-  {
-    "id": 83,
-    "sku": "ms-purestride-sneakers",
-    "type": "configurable",
-    "name": "PureStride Men's Classic White Sneakers",
-    "slug": "purestride-mens-classic-white-sneakers",
-    "short_description": "Timeless white sneakers with all-day comfort, a durable upper, secure lace-up fit, and a flexible rubber sole.",
-    "description": "PureStride Men's Classic White Sneakers are a clean, versatile staple for everyday wear. The synthetic leather upper delivers a sleek look with durability, the lace-up closure provides a secure, adjustable fit, and the rubber sole adds traction and flexibility—great for workdays, weekends, and casual walks.",
-    "price": 60.99,
-    "special_price": null,
-    "is_new": true,
-    "is_featured": true,
-    "categories": [
-      2,
-      8
-    ],
-    "images": [
-      "/images/products/236/1.webp",
-      "/images/products/236/2.webp"
-    ],
-    "super_attributes": [
-      {
-        "code": "select_size_male_footwear",
-        "label": "Select Size Male Footwear",
-        "swatch_type": "text",
-        "options": [
-          {
-            "id": 31,
-            "label": "6",
-            "swatch": null
-          },
-          {
-            "id": 32,
-            "label": "7",
-            "swatch": null
-          },
-          {
-            "id": 33,
-            "label": "8",
-            "swatch": null
-          },
-          {
-            "id": 34,
-            "label": "9",
-            "swatch": null
-          },
-          {
-            "id": 35,
-            "label": "10",
-            "swatch": null
-          }
-        ]
-      }
-    ],
-    "created_at": "2026-09-24 11:07:04"
-  },
-  {
-    "id": 89,
-    "sku": "mj-earthtone-leather",
-    "type": "configurable",
-    "name": "EarthTone Men's Classic Brown Leather Jacket",
-    "slug": "earthtone-mens-classic-brown-leather-jacket",
-    "short_description": "Elevate your style with our EarthTone Men's Classic Brown Leather Jacket. Made from high-quality genuine leather, this jacket features a classic design that is both timeless and versatile. The multiple pockets and full-zip closure make it convenient for daily wear. A must-have for any fashion-forward man.",
-    "description": "<p>Introducing the EarthTone Men's Classic Brown Leather Jacket, a staple piece that embodies style and sophistication. Crafted from high-quality genuine leather, this jacket offers a timeless and versatile design that complements various outfit styles.</p><br><p>The classic brown hue adds a touch of warmth and richness to your overall look, making it a perfect choice for both casual and semi-formal occasions. The full-zip closure not only enhances the aesthetics but also provides easy wear and added warmth, making it suitable for different weather conditions.</p><br><p>Equipped with multiple pockets, this jacket offers convenience and storage for your essentials, whether you're heading out for a casual day or a night out with friends. The comfortable fit ensures that it's perfect for everyday wear, allowing you to effortlessly transition from day to night.</p><br><p>Pair this EarthTone Men's Classic Brown Leather Jacket with jeans, chinos, or even tailored pants to create a polished and fashionable look. Experience the blend of durability, style, and comfort that comes with owning a genuine leather jacket. Elevate your fashion game and make a statement with this essential piece in your wardrobe.</p>",
-    "price": 149.99,
-    "special_price": null,
-    "is_new": true,
-    "is_featured": true,
-    "categories": [
-      2,
-      5
-    ],
-    "images": [
-      "/images/products/268/1.webp",
-      "/images/products/268/2.webp"
-    ],
-    "super_attributes": [
-      {
-        "code": "size",
-        "label": "Size",
-        "swatch_type": null,
-        "options": [
-          {
-            "id": 6,
-            "label": "S",
-            "swatch": null
-          },
-          {
-            "id": 7,
-            "label": "M",
-            "swatch": null
-          },
-          {
-            "id": 8,
-            "label": "L",
-            "swatch": null
-          },
-          {
-            "id": 9,
-            "label": "XL",
-            "swatch": null
-          },
-          {
-            "id": 10,
-            "label": "XXL",
-            "swatch": null
-          }
-        ]
-      },
-      {
-        "code": "neck",
-        "label": "Neck",
-        "swatch_type": "text",
-        "options": [
-          {
-            "id": 23,
-            "label": "Collar",
-            "swatch": null
-          },
-          {
-            "id": 49,
-            "label": "No Collar",
-            "swatch": null
-          }
-        ]
-      }
-    ],
-    "created_at": "2026-09-24 11:07:04"
-  },
-  {
-    "id": 100,
-    "sku": "dl-guitar-guide",
-    "type": "downloadable",
-    "name": "MusicMaestro- Learn to Play Guitar: A Step-by-Step Guide for Beginners",
-    "slug": "musicmaestro--learn-to-play-guitar-a-step-by-step-guide-for-beginners",
-    "short_description": "Unleash your inner musician and learn to play the guitar with our beginner-friendly guide. This comprehensive resource provides easy-to-follow lessons, clear explanations, interactive exercises, and practice songs to help you master the fundamentals of guitar playing.",
-    "description": "<p>Whether you are a complete novice or has a basic understanding of guitar concepts, our guide caters to all levels, ensuring a fun and rewarding learning experience. Download your copy today and watch yourself embark on an exciting journey!</p><br><p>Easy-to-follow lessons for mastering guitar basics, Clear explanations of guitar chords, strumming patterns, and fingerpicking techniques, Interactive exercises and practice songs to reinforce learning, Downloadable video lessons and guitar tab sheets for convenient practice.</p>",
-    "price": 27.99,
-    "special_price": 25.99,
-    "is_new": true,
-    "is_featured": true,
-    "categories": [
-      17,
-      19
-    ],
-    "images": [
-      "/images/products/279/1.webp"
-    ],
-    "super_attributes": [],
-    "created_at": "2026-09-24 11:07:04"
-  },
-  {
-    "id": 101,
-    "sku": "vrt-movie-pass",
-    "type": "virtual",
-    "name": "CineXperience Monthly Movie Pass",
-    "slug": "cinexperience-monthly-movie-pass",
-    "short_description": "Elevate your cinematic journey with the CineXperience Monthly Movie Pass at $99 per month. Enjoy 10 movies each month with no extra charges. Valid nationwide with no blackout dates, plus exclusive perks and concession discounts.",
-    "description": "<p>Introducing the CineXperience Monthly Movie Pass, designed for true movie enthusiasts. Priced at $99 per month, this pass lets you enjoy 10 movies each month without any additional charges.</p><br><p>With access to participating theaters nationwide and no blackout dates or restrictions, the CineXperience Monthly Movie Pass is your key to a cinematic adventure that knows no bounds.</p><br><p>As a pass holder, you also get exclusive perks and discounts on concessions, plus easy online booking and seat selection.</p>",
-    "price": 99,
-    "special_price": null,
-    "is_new": true,
-    "is_featured": true,
-    "categories": [
-      17,
-      20
-    ],
-    "images": [
-      "/images/products/280/1.webp"
-    ],
-    "super_attributes": [],
-    "created_at": "2026-09-24 11:07:04"
-  },
-  {
-    "id": 102,
-    "sku": "dl-champions-book",
-    "type": "downloadable",
-    "name": "Champions Mindset — Practical Insights and Strategies for Success",
-    "slug": "champions-mindset--book-on-practical-insights-and-strategies-for-success",
-    "short_description": "Embark on a transformative journey with \"Champions Mindset\"—a practical, inspiring guide packed with actionable strategies to help you unlock your full potential in life and work.",
-    "description": "<p>\"Champions Mindset\" is more than a book—it's a step-by-step guide to building a high-performance mindset.</p><br><p>You'll explore how to develop focus, discipline, and resilience, and how to turn setbacks into momentum with practical exercises and real-world principles.</p><br><p>Whether you're a professional, athlete, entrepreneur, or simply committed to personal growth, this book helps you build habits that support lasting success.</p>",
-    "price": 25.99,
-    "special_price": 24.99,
-    "is_new": true,
-    "is_featured": true,
-    "categories": [
-      17,
-      19
-    ],
-    "images": [
-      "/images/products/293/1.webp",
-      "/images/products/293/2.webp"
-    ],
-    "super_attributes": [],
-    "created_at": "2026-09-24 11:07:04"
-  },
-  {
-    "id": 103,
-    "sku": "mj-azure-jeans",
-    "type": "configurable",
-    "name": "Azure Sculpted Slim Fit Men's Jeans",
-    "slug": "azure-sculpted-slim-fit-mens-jeans",
-    "short_description": "Modern slim-fit jeans made with quality denim and a secure button-zip closure—built for comfortable, versatile everyday wear.",
-    "description": "<p>Azure Sculpted Slim Fit Men's Jeans deliver a clean, modern silhouette without sacrificing comfort.</p><br><p>Featuring classic five-pocket styling and a secure button-and-zip closure, they're easy to dress up or down.</p><br><p>A reliable wardrobe staple for casual and smart-casual looks.</p>",
-    "price": 47.99,
-    "special_price": null,
-    "is_new": true,
-    "is_featured": true,
-    "categories": [
-      2,
-      6
-    ],
-    "images": [
-      "/images/products/294/1.webp",
-      "/images/products/294/2.webp"
-    ],
-    "super_attributes": [
-      {
-        "code": "waist_size_male_and_female",
-        "label": "Waist Size",
-        "swatch_type": "text",
-        "options": [
-          {
-            "id": 16,
-            "label": "24",
-            "swatch": null
-          },
-          {
-            "id": 17,
-            "label": "28",
-            "swatch": null
-          },
-          {
-            "id": 18,
-            "label": "30",
-            "swatch": null
-          },
-          {
-            "id": 19,
-            "label": "32",
-            "swatch": null
-          },
-          {
-            "id": 20,
-            "label": "34",
-            "swatch": null
-          }
-        ]
-      }
-    ],
-    "created_at": "2026-09-24 11:07:04"
-  },
-  {
-    "id": 109,
-    "sku": "ms-urbanedge-sneakers",
-    "type": "configurable",
-    "name": "Urban Edge Men's High Ankle Sneakers",
-    "slug": "urban-edge-mens-high-ankle-sneakers",
-    "short_description": "High-ankle sneakers built for modern street style—cushioned comfort, durable materials, and a secure lace-up fit.",
-    "description": "<p>Urban Edge high-ankle sneakers add a bold, urban touch to your everyday rotation.</p><br><p>Cushioned insoles support all-day wear, while durable materials help keep up with daily movement.</p><br><p>Easy to style with denim or casual essentials.</p>",
-    "price": 87.99,
-    "special_price": null,
-    "is_new": true,
-    "is_featured": true,
-    "categories": [
-      2,
-      7,
-      8
-    ],
-    "images": [
-      "/images/products/325/1.webp",
-      "/images/products/325/2.webp"
-    ],
-    "super_attributes": [
-      {
-        "code": "select_size_male_footwear",
-        "label": "Select Size Male Footwear",
-        "swatch_type": "text",
-        "options": [
-          {
-            "id": 31,
-            "label": "6",
-            "swatch": null
-          },
-          {
-            "id": 32,
-            "label": "7",
-            "swatch": null
-          },
-          {
-            "id": 33,
-            "label": "8",
-            "swatch": null
-          },
-          {
-            "id": 34,
-            "label": "9",
-            "swatch": null
-          },
-          {
-            "id": 35,
-            "label": "10",
-            "swatch": null
-          }
-        ]
-      }
-    ],
-    "created_at": "2026-09-24 11:07:04"
-  },
-  {
-    "id": 115,
-    "sku": "ks-oceanbreeze-sneakers",
-    "type": "configurable",
-    "name": "OceanBreeze Girls' Blue Comfort Sneakers",
-    "slug": "oceanbreeze-girls-blue-comfort-sneakers",
-    "short_description": "Trendy blue sneakers for girls—lightweight, cushioned, and breathable, with a non-slip sole for everyday play and comfort.",
-    "description": "<p>OceanBreeze girls' sneakers are designed for active days and easy style.</p><br><p>Breathable materials help keep feet feeling fresh, while cushioned comfort supports all-day wear.</p><br><p>A non-slip sole adds confidence for school, playtime, and adventures.</p>",
-    "price": 49.95,
-    "special_price": null,
-    "is_new": true,
-    "is_featured": true,
-    "categories": [
-      3,
-      15
-    ],
-    "images": [
-      "/images/products/396/1.webp",
-      "/images/products/396/2.webp"
-    ],
-    "super_attributes": [
-      {
-        "code": "select_age_group",
-        "label": "Select Age Group (Kids)",
-        "swatch_type": "text",
-        "options": [
-          {
-            "id": 11,
-            "label": "3-5 Y",
-            "swatch": null
-          },
-          {
-            "id": 12,
-            "label": "5-7 Y",
-            "swatch": null
-          },
-          {
-            "id": 13,
-            "label": "7-10 Y",
-            "swatch": null
-          },
-          {
-            "id": 14,
-            "label": "10-13 Y",
-            "swatch": null
-          },
-          {
-            "id": 15,
-            "label": "13-16 Y",
-            "swatch": null
-          }
-        ]
-      }
-    ],
-    "created_at": "2026-09-24 11:07:04"
-  },
-  {
-    "id": 121,
-    "sku": "bk-hall-default",
-    "type": "booking",
-    "name": "Grand Royal Hall Reservation",
-    "slug": "grand-royal-hall-reservation",
-    "short_description": "Reserve the Grand Royal Hall for your next event and experience luxury and elegance. Perfect for weddings, conferences, parties, and special occasions, this spacious venue offers top-tier amenities and unmatched service.",
-    "description": "<p>Make your next event unforgettable by booking the <strong>Grand Royal Hall</strong>, a premier venue designed for celebrations of all kinds. Whether you’re hosting a wedding, corporate event, birthday party, or community gathering, the <strong>Grand Royal Hall</strong> provides the perfect setting with its elegant design, spacious layout, and modern amenities.</p><br><p>Equipped with state-of-the-art audio-visual systems, ample seating arrangements, and customizable décor options, this hall offers everything you need to create a memorable experience. Our dedicated staff ensures a seamless event, from the booking process to the final farewell, allowing you to focus on enjoying the occasion.</p>",
-    "price": 500,
-    "special_price": 450,
-    "is_new": true,
-    "is_featured": true,
-    "categories": [
-      21,
-      23,
-      24
-    ],
-    "images": [
-      "/images/products/408/1.webp",
-      "/images/products/408/2.webp",
-      "/images/products/408/3.webp",
-      "/images/products/408/4.webp"
-    ],
-    "super_attributes": [],
-    "created_at": "2026-09-24 11:07:04"
-  },
-  {
-    "id": 122,
-    "sku": "bk-consult-appointment",
-    "type": "booking",
-    "name": "Premium Business Consultation Appointment",
-    "slug": "premium-business-consultation-appointment",
-    "short_description": "Expert business consulting to help you grow and optimize your business strategy. &nbsp;",
-    "description": "<p>Get one-on-one business consultation from industry experts. Whether you need help with scaling, marketing strategies, or financial planning, our professional consultants provide actionable insights tailored to your business needs. Book an appointment today and take your business to the next level! &nbsp;</p>",
-    "price": 80,
-    "special_price": 72,
-    "is_new": true,
-    "is_featured": true,
-    "categories": [
-      21,
-      22
-    ],
-    "images": [
-      "/images/products/410/1.webp",
-      "/images/products/410/2.webp"
-    ],
-    "super_attributes": [],
-    "created_at": "2026-09-24 11:07:04"
-  },
-  {
-    "id": 123,
-    "sku": "bk-concert-event",
-    "type": "booking",
-    "name": "Music Concert: Rock Night Live",
-    "slug": "music-concert-rock-night-live",
-    "short_description": "Experience an electrifying night with live rock performances from top bands. Get your tickets now and rock the night away!",
-    "description": "<p>Join us for **Rock Night Live**, an epic concert featuring top rock bands performing their greatest hits. Feel the energy, enjoy the electrifying atmosphere, and immerse yourself in the best live music experience of the year. **Choose from General Admission, VIP Passes, or Group Discounts** and book your spot today! &nbsp;</p>",
-    "price": 200,
-    "special_price": null,
-    "is_new": true,
-    "is_featured": true,
-    "categories": [
-      21,
-      23
-    ],
-    "images": [
-      "/images/products/412/1.webp",
-      "/images/products/412/2.webp"
-    ],
-    "super_attributes": [],
-    "created_at": "2026-09-24 11:07:04"
-  },
-  {
-    "id": 124,
-    "sku": "bk-car-rental",
-    "type": "booking",
-    "name": "Luxury Car Rental Bookings",
-    "slug": "luxury-car-rental-bookings",
-    "short_description": "Drive in style with the luxurious **Sedan's, Hatchbacks, SUV's**. Book now for an unforgettable ride. &nbsp;",
-    "description": "<p>Experience the ultimate in **comfort, luxury, and performance** with the **Sedan's, Hatchbacks, SUV's**. Whether you're in town for business, a special occasion, or just want to enjoy a premium driving experience, this high-end sedan offers **top-tier performance, leather interiors, and advanced features**. Available for daily or weekly rentals. &nbsp;</p>",
-    "price": 150,
-    "special_price": 145,
-    "is_new": true,
-    "is_featured": true,
-    "categories": [
-      21,
-      26
-    ],
-    "images": [
-      "/images/products/414/1.webp",
-      "/images/products/414/2.webp",
-      "/images/products/414/3.webp",
-      "/images/products/414/4.webp"
-    ],
-    "super_attributes": [],
-    "created_at": "2026-09-24 11:07:04"
-  },
-  {
-    "id": 125,
-    "sku": "bk-dining-table",
-    "type": "booking",
-    "name": "VIP Fine Dining Table at Skyline Restaurant",
-    "slug": "vip-fine-dining-table-at-skyline-restaurant",
-    "short_description": "Reserve a VIP fine dining table at Skyline Restaurant with breathtaking city views and a premium experience.",
-    "description": "<p>Enjoy a <strong data-start=\"589\" data-end=\"620\">luxurious dining experience</strong> at <strong data-start=\"624\" data-end=\"646\">Skyline Restaurant</strong>, offering a <strong data-start=\"659\" data-end=\"680\">private VIP table</strong> with <strong data-start=\"686\" data-end=\"710\">panoramic city views</strong>. This booking includes a <strong data-start=\"736\" data-end=\"795\">welcome drink, priority service, and a dedicated waiter</strong> to ensure an unforgettable evening. Ideal for romantic dinners, business meetings, or special celebrations.</p>",
-    "price": 200,
-    "special_price": null,
-    "is_new": true,
-    "is_featured": true,
-    "categories": [
-      21,
-      25
-    ],
-    "images": [
-      "/images/products/416/1.webp",
-      "/images/products/416/2.webp",
-      "/images/products/416/3.webp"
-    ],
-    "super_attributes": [],
-    "created_at": "2026-09-24 11:07:04"
-  },
-  {
-    "id": 126,
-    "sku": "el-air-fryer",
+    "sku": "custom-plastic-pen",
     "type": "simple",
-    "name": "Digital Air Fryer with Touch Controls – 4.5L",
-    "slug": "digital-air-fryer-with-touch-controls-45l",
-    "short_description": "Enjoy crispy, guilt-free meals with this 4.5-liter digital air fryer featuring adjustable temperature control and rapid air technology.",
-    "description": "<p>&nbsp;Upgrade your kitchen with the Digital Air Fryer &ndash; the perfect solution for healthier cooking. Using rapid air circulation technology, it allows you to fry, bake, grill, and roast with little to no oil. The sleek touch control panel makes operation simple, while the 4.5L non-stick basket offers ample space for family-sized meals. With adjustable temperature settings and a built-in timer, you can customize cooking to suit a variety of dishes. Cleanup is easy thanks to the dishwasher-safe basket and compact, space-saving design.</p>",
-    "price": 122.5,
+    "short_description": "Budget click pen in bright colours. Pad printed with your logo, ideal for events and giveaways.",
+    "description": "<p>Light, colourful click pen. Minimum order 100 pcs for logo printing.</p><br><p><b>Print area:</b> Barrel, approx. 45 x 8 mm.</p>",
     "special_price": null,
-    "is_new": true,
-    "is_featured": true,
+    "is_new": false,
+    "is_featured": false,
+    "super_attributes": [],
+    "is_customizable": true,
+    "customizer": "pen",
+    "customizable_options": [
+      {
+        "label": "Ink Colour",
+        "type": "select",
+        "is_required": true,
+        "options": [
+          {
+            "label": "Blue",
+            "price": 0
+          },
+          {
+            "label": "Black",
+            "price": 0
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-09-10 10:00:00",
+    "id": 209,
+    "name": "Plastic Click Pen with Logo Print",
+    "slug": "plastic-click-pen-logo-print",
+    "price": 0.99,
     "categories": [
-      32,
-      33
+      4
     ],
     "images": [
-      "/images/products/419/1.webp",
-      "/images/products/419/2.webp"
-    ],
-    "super_attributes": [],
-    "created_at": "2026-09-24 11:07:04"
+      "/images/products/209/1.webp",
+      "/images/products/209/2.webp",
+      "/images/products/209/3.webp"
+    ]
   },
   {
-    "id": 127,
-    "sku": "el-microwave-oven",
+    "sku": "executive-pen-gift-set",
     "type": "simple",
-    "name": "20L Solo Microwave Oven with Manual Controls",
-    "slug": "20l-solo-microwave-oven-with-manual-controls",
-    "short_description": "Compact 20-liter solo microwave oven ideal for reheating, defrosting, and basic cooking tasks with simple manual controls.",
-    "description": "<p>The 20L Solo Microwave Oven offers a quick and convenient way to reheat, defrost, and cook everyday meals. Designed with user-friendly manual knobs, it gives you easy control over time and power levels. Its compact size fits neatly into any kitchen while still offering enough capacity for small to medium-sized dishes. Perfect for singles, couples, or small families, this microwave features a durable build, energy efficiency, and even heating technology. Whether you&rsquo;re warming up leftovers or preparing a quick snack, it delivers reliable performance every time.</p>",
-    "price": 162.52,
-    "special_price": null,
-    "is_new": true,
-    "is_featured": true,
-    "categories": [
-      32,
-      33
-    ],
-    "images": [
-      "/images/products/420/1.webp",
-      "/images/products/420/2.webp"
-    ],
+    "short_description": "Roller and ball pen pair in a premium gift box. Engrave a name or logo on the barrel.",
+    "description": "<p>Executive roller pen and ball pen pair presented in a black magnetic gift box.</p>",
+    "special_price": 12.99,
+    "is_new": false,
+    "is_featured": false,
     "super_attributes": [],
-    "created_at": "2026-09-24 11:07:04"
-  },
-  {
-    "id": 128,
-    "sku": "el-android-tablet",
-    "type": "simple",
-    "name": "10.1-Inch Android Tablet with Octa-Core Processor & 64GB Storage",
-    "slug": "101-inch-android-tablet-with-octa-core-processor-64gb-storage",
-    "short_description": "Sleek and lightweight 10.1\" tablet featuring an octa-core processor, 64GB storage, dual cameras, and a long-lasting battery&mdash;perfect for work, entertainment, and learning on the go.",
-    "description": "<p data-start=\"437\" data-end=\"1094\">Stay connected and productive with this 10.1-inch Android tablet, designed for performance and portability. Powered by an efficient octa-core processor and 4GB RAM, it delivers smooth multitasking whether you're browsing, streaming, or working on documents. The vibrant HD display ensures crisp visuals for videos, games, or reading, while 64GB of internal storage (expandable via microSD) provides ample space for apps, media, and files.<br data-start=\"875\" data-end=\"878\">Dual cameras let you video call and capture memories, and the long-lasting battery keeps you going throughout the day. Lightweight and compact, it's perfect for students, professionals, and entertainment on the move.</p>",
-    "price": 600,
-    "special_price": null,
-    "is_new": true,
-    "is_featured": true,
-    "categories": [
-      27,
-      29
+    "is_customizable": true,
+    "customizer": "pen",
+    "customizable_options": [
+      {
+        "label": "Ink Colour",
+        "type": "select",
+        "is_required": true,
+        "options": [
+          {
+            "label": "Blue",
+            "price": 0
+          },
+          {
+            "label": "Black",
+            "price": 0
+          }
+        ]
+      }
     ],
-    "images": [
-      "/images/products/425/1.webp",
-      "/images/products/425/2.webp"
-    ],
-    "super_attributes": [],
-    "created_at": "2026-09-24 11:07:04"
-  },
-  {
-    "id": 129,
-    "sku": "el-fitness-watch",
-    "type": "simple",
-    "name": "Smart Fitness Watch with Heart Rate Monitor & Activity Tracking",
-    "slug": "smart-fitness-watch-with-heart-rate-monitor-activity-tracking",
-    "short_description": "Track your health and fitness goals with this smart fitness watch featuring heart rate monitoring, step tracking, sleep analysis, and smartphone notifications.",
-    "description": "<p>Stay on top of your wellness journey with this sleek and reliable smart fitness watch. Designed for daily use, it monitors your heart rate, counts your steps, tracks calories burned, and even analyzes your sleep patterns. The vibrant display offers real-time stats, while Bluetooth connectivity keeps you updated with call, SMS, and app notifications right on your wrist. Water-resistant and lightweight, it&rsquo;s perfect for workouts, outdoor activities, and everyday wear. With a long-lasting battery and multiple sport modes, this watch is your ideal fitness companion.</p>",
-    "price": 25,
-    "special_price": null,
-    "is_new": true,
-    "is_featured": true,
-    "categories": [
-      27,
-      28
-    ],
-    "images": [
-      "/images/products/429/1.webp",
-      "/images/products/429/2.webp"
-    ],
-    "super_attributes": [],
-    "created_at": "2026-09-24 11:07:04"
-  },
-  {
-    "id": 130,
-    "sku": "wf-noir-dress",
-    "type": "configurable",
-    "name": "Noir Elegance Women's Long Sleeve Silk Satin Formal Dress",
-    "slug": "noir-elegance-womens-silk-satin-formal-dress",
-    "short_description": "Discover our Noir Elegance dress, crafted from the finest silk satin for a luxurious and sophisticated look. Perfect for formal occasions, galas, and evening events where elegance meets timeless style.",
-    "description": "<p>Introducing the Noir Elegance Women's Long Sleeve Silk Satin Formal Dress, the perfect piece to elevate your wardrobe with a touch of luxury. Crafted from premium silk satin fabric, this dress features an elegant A-line silhouette with graceful long sleeves and a flattering neckline. The smooth, lustrous finish of the satin catches the light beautifully, creating a stunning visual effect with every movement.</p><br><p>Whether you're attending a black-tie gala, a formal dinner, or a special celebration, this dress ensures you make a lasting impression. The timeless design is complemented by meticulous tailoring, providing both comfort and style throughout the evening. Available in classic black, this dress is a versatile addition to any formal collection.</p><br><p><strong>Key Features:</strong></p><ul><li>Premium silk satin fabric with lustrous finish</li><li>Elegant A-line silhouette</li><li>Graceful long sleeves</li><li>Flattering V-neckline</li><li>Concealed back zipper closure</li><li>Fully lined for comfort</li></ul>",
-    "price": 149.99,
-    "special_price": null,
-    "is_new": true,
-    "is_featured": true,
+    "created_at": "2026-09-11 10:00:00",
+    "id": 210,
+    "name": "Executive Pen Gift Set",
+    "slug": "executive-pen-gift-set",
+    "price": 14.99,
     "categories": [
       4,
       9
     ],
     "images": [
-      "/images/products/113/1.webp",
-      "/images/products/113/2.webp"
-    ],
-    "super_attributes": [
-      {
-        "code": "size",
-        "label": "Size",
-        "swatch_type": null,
-        "options": [
-          {
-            "id": 6,
-            "label": "S",
-            "swatch": null
-          },
-          {
-            "id": 7,
-            "label": "M",
-            "swatch": null
-          },
-          {
-            "id": 8,
-            "label": "L",
-            "swatch": null
-          },
-          {
-            "id": 9,
-            "label": "XL",
-            "swatch": null
-          }
-        ]
-      }
-    ],
-    "created_at": "2026-09-24 11:07:04"
+      "/images/products/210/1.webp",
+      "/images/products/210/2.webp"
+    ]
   },
   {
-    "id": 135,
-    "sku": "ms-executive-suit",
-    "type": "configurable",
-    "name": "Executive Elegance Men's Formal Office Suit",
-    "slug": "executive-elegance-mens-formal-office-suit",
-    "short_description": "Elevate your professional presence with our Executive Elegance Men's Formal Office Suit. Meticulously tailored from premium fabrics with impeccable attention to detail, this suit delivers a polished and authoritative look for boardrooms, business meetings, and formal occasions.",
-    "description": "<p>Introducing the Executive Elegance Men's Formal Office Suit, the embodiment of professional sophistication. Crafted from a premium polyester-viscose blend with a smooth satin lining, this suit offers both comfort and durability throughout the workday.</p><br><p>The two-button single-breasted jacket features notch lapels, a chest pocket, and two front flap pockets, while the straight-fit trousers complete the streamlined silhouette. Available in classic colors, this suit transitions seamlessly from office hours to evening events.</p><br><p><strong>Key Features:</strong></p><ul><li>Premium polyester-viscose blend fabric</li><li>Smooth satin interior lining</li><li>Two-button single-breasted jacket</li><li>Notch lapels with chest and flap pockets</li><li>Straight-fit matching trousers</li><li>Available in Green and Blue</li></ul>",
-    "price": 299.99,
-    "special_price": null,
-    "is_new": true,
-    "is_featured": true,
-    "categories": [
-      2,
-      5
-    ],
-    "images": [
-      "/images/products/59/1.webp",
-      "/images/products/59/2.webp"
-    ],
-    "super_attributes": [
-      {
-        "code": "color",
-        "label": "Color",
-        "swatch_type": null,
-        "options": [
-          {
-            "id": 2,
-            "label": "Green",
-            "swatch": null
-          },
-          {
-            "id": 41,
-            "label": "Blue",
-            "swatch": "#0000ff"
-          }
-        ]
-      },
-      {
-        "code": "size",
-        "label": "Size",
-        "swatch_type": null,
-        "options": [
-          {
-            "id": 7,
-            "label": "M",
-            "swatch": null
-          },
-          {
-            "id": 8,
-            "label": "L",
-            "swatch": null
-          },
-          {
-            "id": 9,
-            "label": "XL",
-            "swatch": null
-          },
-          {
-            "id": 10,
-            "label": "XXL",
-            "swatch": null
-          }
-        ]
-      }
-    ],
-    "created_at": "2026-09-24 11:07:04"
-  },
-  {
-    "id": 147,
-    "sku": "custom-cotton-tshirt",
+    "sku": "silver-roller-pen",
     "type": "simple",
-    "name": "Customizable Cotton T-Shirt",
-    "slug": "customizable-cotton-t-shirt",
-    "short_description": "Design your own premium custom cotton T-Shirt with our interactive studio. Add custom graphics, text, QR codes, and realistic fabric colors.",
-    "description": "<p>Premium 100% ring-spun cotton custom printable T-shirt. High-density fabric for vivid print clarity. Fully customizable on Front, Back, and Sleeves with realistic 3D fabric fold preview.</p>",
-    "price": 29.99,
+    "short_description": "Slim silver roller pen with a chrome clip. Engrave a name for a personal touch.",
+    "description": "<p>Slim, balanced roller pen with a smooth gel refill and chrome trims.</p>",
     "special_price": null,
     "is_new": false,
     "is_featured": false,
-    "categories": [],
-    "images": [],
     "super_attributes": [],
-    "created_at": "2026-09-24 15:32:54"
+    "is_customizable": true,
+    "customizer": "pen",
+    "customizable_options": [
+      {
+        "label": "Ink Colour",
+        "type": "select",
+        "is_required": true,
+        "options": [
+          {
+            "label": "Blue",
+            "price": 0
+          },
+          {
+            "label": "Black",
+            "price": 0
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-09-12 10:00:00",
+    "id": 211,
+    "name": "Silver Roller Pen",
+    "slug": "silver-roller-pen",
+    "price": 5.99,
+    "categories": [
+      4
+    ],
+    "images": [
+      "/images/products/211/1.webp",
+      "/images/products/211/2.webp"
+    ]
+  },
+  {
+    "sku": "custom-executive-diary",
+    "type": "simple",
+    "short_description": "A5 hardbound diary with a soft PU leather cover. Click \"Customize\" to put your logo or design on the front and back cover.",
+    "description": "<p>A5 (148 x 210 mm) executive diary, 192 pages of 70 GSM paper, ribbon marker and PU leather cover.</p><br><p><b>Print areas:</b> Front cover and back cover. Debossing or UV print depending on cover.</p>",
+    "special_price": null,
+    "is_new": true,
+    "is_featured": true,
+    "super_attributes": [],
+    "is_customizable": true,
+    "customizer": "diary",
+    "customizable_options": [
+      {
+        "label": "Inside Pages",
+        "type": "select",
+        "is_required": true,
+        "options": [
+          {
+            "label": "Ruled",
+            "price": 0
+          },
+          {
+            "label": "Plain",
+            "price": 0
+          },
+          {
+            "label": "Dated 2027",
+            "price": 2
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-09-13 10:00:00",
+    "id": 212,
+    "name": "Executive PU Leather Diary A5",
+    "slug": "executive-pu-leather-diary-a5",
+    "price": 9.99,
+    "categories": [
+      8
+    ],
+    "images": [
+      "/images/products/212/1.webp",
+      "/images/products/212/2.webp",
+      "/images/products/212/3.webp"
+    ]
+  },
+  {
+    "sku": "custom-hardbound-notebook",
+    "type": "simple",
+    "short_description": "A5 hardcover notebook with an elastic closure and ribbon marker. Full-colour print on the cover.",
+    "description": "<p>A5 hardcover notebook, 160 pages, elastic closure, ribbon marker and back pocket.</p>",
+    "special_price": null,
+    "is_new": false,
+    "is_featured": false,
+    "super_attributes": [],
+    "is_customizable": true,
+    "customizer": "diary",
+    "customizable_options": [
+      {
+        "label": "Inside Pages",
+        "type": "select",
+        "is_required": true,
+        "options": [
+          {
+            "label": "Ruled",
+            "price": 0
+          },
+          {
+            "label": "Plain",
+            "price": 0
+          },
+          {
+            "label": "Dated 2027",
+            "price": 2
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-09-14 10:00:00",
+    "id": 213,
+    "name": "Hardbound Notebook with Elastic Band",
+    "slug": "hardbound-notebook-elastic-band",
+    "price": 7.49,
+    "categories": [
+      8
+    ],
+    "images": [
+      "/images/products/213/1.webp",
+      "/images/products/213/2.webp",
+      "/images/products/213/3.webp"
+    ]
+  },
+  {
+    "sku": "custom-white-cover-notebook",
+    "type": "simple",
+    "short_description": "White matte cover notebook, perfect for full-colour custom cover designs.",
+    "description": "<p>A5 notebook with a white matte laminated cover, ideal for full-bleed custom artwork.</p>",
+    "special_price": null,
+    "is_new": false,
+    "is_featured": false,
+    "super_attributes": [],
+    "is_customizable": true,
+    "customizer": "diary",
+    "customizable_options": [
+      {
+        "label": "Inside Pages",
+        "type": "select",
+        "is_required": true,
+        "options": [
+          {
+            "label": "Ruled",
+            "price": 0
+          },
+          {
+            "label": "Plain",
+            "price": 0
+          },
+          {
+            "label": "Dated 2027",
+            "price": 2
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-09-15 10:00:00",
+    "id": 214,
+    "name": "Plain White Cover Notebook",
+    "slug": "plain-white-cover-notebook",
+    "price": 4.99,
+    "categories": [
+      8
+    ],
+    "images": [
+      "/images/products/214/1.webp",
+      "/images/products/214/2.webp",
+      "/images/products/214/3.webp"
+    ]
+  },
+  {
+    "sku": "leather-wrap-journal",
+    "type": "simple",
+    "short_description": "Handcrafted leather journal with a wrap tie. Add a name or monogram on the cover.",
+    "description": "<p>Genuine leather wrap journal with 200 pages of handmade paper.</p>",
+    "special_price": null,
+    "is_new": false,
+    "is_featured": false,
+    "super_attributes": [],
+    "is_customizable": true,
+    "customizer": "diary",
+    "customizable_options": [
+      {
+        "label": "Inside Pages",
+        "type": "select",
+        "is_required": true,
+        "options": [
+          {
+            "label": "Ruled",
+            "price": 0
+          },
+          {
+            "label": "Plain",
+            "price": 0
+          },
+          {
+            "label": "Dated 2027",
+            "price": 2
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-09-16 10:00:00",
+    "id": 215,
+    "name": "Leather Wrap Journal",
+    "slug": "leather-wrap-journal",
+    "price": 16.99,
+    "categories": [
+      8
+    ],
+    "images": [
+      "/images/products/215/1.webp",
+      "/images/products/215/2.webp",
+      "/images/products/215/3.webp"
+    ]
+  },
+  {
+    "sku": "corporate-welcome-kit",
+    "type": "bundle",
+    "short_description": "New-joiner kit with a T-shirt, diary and pen. Choose each item; branding is added after order confirmation.",
+    "description": "<p>Everything a new team member needs on day one: a T-shirt, an A5 diary and a metal pen, all in your brand.</p>",
+    "special_price": 26.99,
+    "is_new": false,
+    "is_featured": true,
+    "super_attributes": [],
+    "is_customizable": false,
+    "customizer": null,
+    "customizable_options": [],
+    "created_at": "2026-09-17 10:00:00",
+    "id": 216,
+    "name": "Corporate Welcome Kit",
+    "slug": "corporate-welcome-kit",
+    "price": 29.99,
+    "categories": [
+      9
+    ],
+    "images": [
+      "/images/products/216/1.webp",
+      "/images/products/216/2.webp",
+      "/images/products/216/3.webp"
+    ]
+  },
+  {
+    "sku": "diary-pen-combo",
+    "type": "bundle",
+    "short_description": "A5 diary with a matching pen. A popular corporate and festival gift.",
+    "description": "<p>A5 diary paired with a metal ball pen. Great for Diwali, New Year and client gifting.</p>",
+    "special_price": null,
+    "is_new": false,
+    "is_featured": false,
+    "super_attributes": [],
+    "is_customizable": false,
+    "customizer": null,
+    "customizable_options": [],
+    "created_at": "2026-09-18 10:00:00",
+    "id": 217,
+    "name": "Diary and Pen Combo",
+    "slug": "diary-and-pen-combo",
+    "price": 12.49,
+    "categories": [
+      9
+    ],
+    "images": [
+      "/images/products/217/1.webp",
+      "/images/products/217/2.webp",
+      "/images/products/217/3.webp"
+    ]
   }
 ]

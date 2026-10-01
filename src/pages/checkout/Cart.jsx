@@ -5,7 +5,8 @@ import Layout from '../../components/layout/Layout';
 import CartSummary from '../../components/products/CartSummary';
 import { ProductsCarousel } from '../../components/home/Carousels';
 import { Breadcrumbs, QuantityChanger, useConfirm } from '../../components/ui';
-import { allProducts, baseImage, formatPrice } from '../../lib/catalog';
+import { allProducts, formatPrice, itemImage } from '../../lib/catalog';
+import { CustomizedBadge } from '../../components/products/Customized';
 import { t } from '../../lib/i18n';
 import { useStore } from '../../store/StoreContext';
 
@@ -31,7 +32,7 @@ function CartItem({ item, selected, onSelect, quantity, onQuantity, onRemove }) 
                     <Link to={url}>
                         <img
                             className="h-[110px] max-w-[110px] rounded-xl max-md:h-20 max-md:max-w-20"
-                            src={baseImage(item.product)}
+                            src={itemImage(item)}
                             alt={item.product.name}
                             width="110"
                             height="110"
@@ -42,6 +43,8 @@ function CartItem({ item, selected, onSelect, quantity, onQuantity, onRemove }) 
                         <Link to={url}>
                             <p className="text-base font-medium max-sm:text-sm">{item.product.name}</p>
                         </Link>
+
+                        <CustomizedBadge item={item} />
 
                         {item.options.length > 0 && (
                             <div className="grid select-none gap-x-2.5 gap-y-1.5">
@@ -81,7 +84,7 @@ function CartItem({ item, selected, onSelect, quantity, onQuantity, onRemove }) 
                                 onRemove={onRemove}
                             />
 
-                            <span className="hidden cursor-pointer text-sm text-blue-700 max-md:block" role="button" tabIndex={0} onClick={onRemove}>
+                            <span className="hidden cursor-pointer text-sm text-brand-700 max-md:block" role="button" tabIndex={0} onClick={onRemove}>
                                 {t('checkout.cart.index.remove')}
                             </span>
                         </div>
@@ -91,7 +94,7 @@ function CartItem({ item, selected, onSelect, quantity, onQuantity, onRemove }) 
                 <div className="text-right max-md:hidden">
                     <p className="text-lg font-semibold">{total}</p>
 
-                    <span className="cursor-pointer text-base text-blue-700" role="button" tabIndex={0} onClick={onRemove}>
+                    <span className="cursor-pointer text-base text-brand-700" role="button" tabIndex={0} onClick={onRemove}>
                         {t('checkout.cart.index.remove')}
                     </span>
                 </div>
@@ -166,7 +169,7 @@ export default function Cart() {
 
                                     {selected.length > 0 && (
                                         <div>
-                                            <span className="cursor-pointer text-base text-blue-700 max-sm:text-xs" role="button" tabIndex={0} onClick={removeSelected}>
+                                            <span className="cursor-pointer text-base text-brand-700 max-sm:text-xs" role="button" tabIndex={0} onClick={removeSelected}>
                                                 {t('checkout.cart.index.remove')}
                                             </span>
 
@@ -174,7 +177,7 @@ export default function Cart() {
                                                 <>
                                                     <span className="mx-2.5 border-r-2 border-zinc-200" />
                                                     <span
-                                                        className="cursor-pointer text-base text-blue-700 max-sm:text-xs"
+                                                        className="cursor-pointer text-base text-brand-700 max-sm:text-xs"
                                                         role="button"
                                                         tabIndex={0}
                                                         onClick={moveSelectedToWishlist}

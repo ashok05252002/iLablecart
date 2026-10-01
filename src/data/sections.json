@@ -7,34 +7,19 @@
     "options": {
       "images": [
         {
-          "title": "Get Ready For New Collection",
-          "link": "/formal-wear-female",
+          "title": "Design Your Own Custom T-Shirts",
+          "link": "/custom-t-shirts",
           "image": "/images/sliders/1.webp"
         },
         {
-          "title": "Get Ready For New Collection",
-          "link": "/formal-wear-men",
+          "title": "Pens Engraved With Your Logo",
+          "link": "/custom-pens",
           "image": "/images/sliders/2.webp"
         },
         {
-          "title": "Get Ready For New Collection",
-          "link": "/active-wear-female",
+          "title": "Personalised Diaries & Notebooks",
+          "link": "/diaries-notebooks",
           "image": "/images/sliders/3.webp"
-        },
-        {
-          "title": "Get Ready For New Collection",
-          "link": "/smart-home-automation",
-          "image": "/images/sliders/4.webp"
-        },
-        {
-          "title": "Get Ready For New Collection",
-          "link": "/mobile-phones-accessories",
-          "image": "/images/sliders/5.webp"
-        },
-        {
-          "title": "Get Ready For New Collection",
-          "link": "/laptops-tablets",
-          "image": "/images/sliders/6.webp"
         }
       ]
     }
@@ -45,8 +30,8 @@
     "name": "Offer Information",
     "sort_order": 2,
     "options": {
-      "html": "<div class=\"home-offer\"><h1>Get UPTO 40% OFF on your 1st order SHOP NOW</h1></div>",
-      "css": ".home-offer h1 {display: block;font-weight: 500;text-align: center;font-size: 22px;font-family: DM Serif Display;background-color: #E8EDFE;padding-top: 20px;padding-bottom: 20px;}@media (max-width:768px){.home-offer h1 {font-size:18px;padding-top: 10px;padding-bottom: 10px;}@media (max-width:525px) {.home-offer h1 {font-size:14px;padding-top: 6px;padding-bottom: 6px;}}"
+      "html": "<div class=\"home-offer\"><h1>Get FLAT 15% OFF on your 1st custom order. Free design preview!</h1></div>",
+      "css": ".home-offer h1 {display: block;font-weight: 500;text-align: center;font-size: 22px;font-family: DM Serif Display;background-color: #EEF8F0;padding-top: 20px;padding-bottom: 20px;}@media (max-width:768px){.home-offer h1 {font-size:18px;padding-top: 10px;padding-bottom: 10px;}@media (max-width:525px) {.home-offer h1 {font-size:14px;padding-top: 6px;padding-bottom: 6px;}}/* gold rule */.home-offer h1 {color: #25843D;border-bottom: 2px solid #C9A04A;}"
     }
   },
   {
@@ -65,13 +50,13 @@
   {
     "id": 4,
     "type": "product_carousel",
-    "name": "Mens Collection",
+    "name": "Custom T-Shirts",
     "sort_order": 4,
     "options": {
-      "title": "Mens Collection",
+      "title": "Custom T-Shirts",
       "filters": {
         "category_id": 2,
-        "sort": "created_at-desc",
+        "sort": "created_at-asc",
         "limit": 10
       }
     }
@@ -82,8 +67,8 @@
     "name": "Top Collections",
     "sort_order": 5,
     "options": {
-      "html": "<div class=\"top-collection-container\">\n                                <div class=\"top-collection-header\">\n                                    <h2>The game with our new additions!</h2>\n                                </div>\n\n                                <div class=\"top-collection-grid container\">\n                                    <div class=\"top-collection-card\">\n                                        <a href=\"/electronics\" aria-label=\"The game with our new additions!\">\n                                            <img src=\"/images/static/1.webp\" loading=\"lazy\" width=\"396\" height=\"396\" alt=\"The game with our new additions!\">\n                                        </a>\n                                    </div>\n\n                                    <div class=\"top-collection-card\">\n                                        <a href=\"/mens\" aria-label=\"The game with our new additions!\">\n                                            <img src=\"/images/static/2.webp\" loading=\"lazy\" width=\"396\" height=\"396\" alt=\"The game with our new additions!\">\n                                        </a>\n                                    </div>\n\n                                    <div class=\"top-collection-card\">\n                                        <a href=\"/womens\" aria-label=\"The game with our new additions!\">\n                                            <img src=\"/images/static/3.webp\" loading=\"lazy\" width=\"396\" height=\"396\" alt=\"The game with our new additions!\">\n                                        </a>\n                                    </div>\n\n                                    <div class=\"top-collection-card\">\n                                        <a href=\"/formal-wear-men\" aria-label=\"The game with our new additions!\">\n                                            <img src=\"/images/static/4.webp\" loading=\"lazy\" width=\"396\" height=\"396\" alt=\"The game with our new additions!\">\n                                        </a>\n                                    </div>\n\n                                    <div class=\"top-collection-card\">\n                                        <a href=\"/formal-wear-female\" aria-label=\"The game with our new additions!\">\n                                            <img src=\"/images/static/5.webp\" loading=\"lazy\" width=\"396\" height=\"396\" alt=\"The game with our new additions!\">\n                                        </a>\n                                    </div>\n\n                                    <div class=\"top-collection-card\">\n                                        <a href=\"/wellness\" aria-label=\"The game with our new additions!\">\n                                            <img src=\"/images/static/6.webp\" loading=\"lazy\" width=\"396\" height=\"396\" alt=\"The game with our new additions!\">\n                                        </a>\n                                    </div>\n                                </div>\n                            </div>",
-      "css": ".top-collection-container {overflow: hidden;}.top-collection-header {padding-left: 15px;padding-right: 15px;text-align: center;font-size: 70px;line-height: 90px;color: #060C3B;margin-top: 80px;}.top-collection-header h2 {max-width: 595px;margin-left: auto;margin-right: auto;font-family: DM Serif Display;}.top-collection-grid {display: flex;flex-wrap: wrap;gap: 32px;justify-content: center;margin-top: 60px;width: 100%;margin-right: auto;margin-left: auto;padding-right: 90px;padding-left: 90px;}.top-collection-card {position: relative;background: #f9fafb;overflow:hidden;border-radius:20px;}.top-collection-card img {border-radius: 16px;max-width: 100%;text-indent:-9999px;transition: transform 300ms ease;transform: scale(1);}.top-collection-card:hover img {transform: scale(1.05);transition: all 300ms ease;}.top-collection-card h3 {color: #060C3B;font-size: 30px;font-family: DM Serif Display;transform: translateX(-50%);width: max-content;left: 50%;bottom: 30px;position: absolute;margin: 0;font-weight: inherit;}@media not all and (min-width: 525px) {.top-collection-header {margin-top: 28px;font-size: 20px;line-height: 1.5;}.top-collection-grid {gap: 10px}}@media not all and (min-width: 768px) {.top-collection-header {margin-top: 30px;font-size: 28px;line-height: 3;}.top-collection-header h2 {line-height:2; margin-bottom:20px;} .top-collection-grid {gap: 14px}} @media not all and (min-width: 1024px) {.top-collection-grid {padding-left: 30px;padding-right: 30px;}}@media (max-width: 768px) {.top-collection-grid { row-gap:15px; column-gap:0px;justify-content: space-between;margin-top: 0px;} .top-collection-card{width:48%} .top-collection-card img {width:100%;} .top-collection-card h3 {font-size:24px; bottom: 16px;}}@media (max-width:520px) { .top-collection-grid{padding-left: 15px;padding-right: 15px;} .top-collection-card h3 {font-size:18px; bottom: 10px;}}"
+      "html": "<div class=\"top-collection-container\">\n                                <div class=\"top-collection-header\">\n                                    <h2>Print your brand on everything!</h2>\n                                </div>\n\n                                <div class=\"top-collection-grid container\">\n                                    <div class=\"top-collection-card\">\n                                        <a href=\"/custom-t-shirts\" aria-label=\"Custom T-Shirts\">\n                                            <img src=\"/images/static/1.webp\" loading=\"lazy\" width=\"396\" height=\"396\" alt=\"Custom T-Shirts\">\n                                            <h3>Custom T-Shirts</h3>\n                                        </a>\n                                    </div>\n                                    <div class=\"top-collection-card\">\n                                        <a href=\"/polo-t-shirts\" aria-label=\"Polo T-Shirts\">\n                                            <img src=\"/images/static/2.webp\" loading=\"lazy\" width=\"396\" height=\"396\" alt=\"Polo T-Shirts\">\n                                            <h3>Polo T-Shirts</h3>\n                                        </a>\n                                    </div>\n                                    <div class=\"top-collection-card\">\n                                        <a href=\"/hoodies-sweatshirts\" aria-label=\"Hoodies &amp; Sweatshirts\">\n                                            <img src=\"/images/static/3.webp\" loading=\"lazy\" width=\"396\" height=\"396\" alt=\"Hoodies &amp; Sweatshirts\">\n                                            <h3>Hoodies &amp; Sweatshirts</h3>\n                                        </a>\n                                    </div>\n                                    <div class=\"top-collection-card\">\n                                        <a href=\"/custom-pens\" aria-label=\"Custom Pens\">\n                                            <img src=\"/images/static/4.webp\" loading=\"lazy\" width=\"396\" height=\"396\" alt=\"Custom Pens\">\n                                            <h3>Custom Pens</h3>\n                                        </a>\n                                    </div>\n                                    <div class=\"top-collection-card\">\n                                        <a href=\"/diaries-notebooks\" aria-label=\"Diaries &amp; Notebooks\">\n                                            <img src=\"/images/static/5.webp\" loading=\"lazy\" width=\"396\" height=\"396\" alt=\"Diaries &amp; Notebooks\">\n                                            <h3>Diaries &amp; Notebooks</h3>\n                                        </a>\n                                    </div>\n                                    <div class=\"top-collection-card\">\n                                        <a href=\"/corporate-gift-sets\" aria-label=\"Corporate Gift Sets\">\n                                            <img src=\"/images/static/6.webp\" loading=\"lazy\" width=\"396\" height=\"396\" alt=\"Corporate Gift Sets\">\n                                            <h3>Corporate Gift Sets</h3>\n                                        </a>\n                                    </div>\n                                </div>\n                            </div>",
+      "css": ".top-collection-container {overflow: hidden;}.top-collection-header {padding-left: 15px;padding-right: 15px;text-align: center;font-size: 70px;line-height: 90px;color: #25843D;margin-top: 80px;}.top-collection-header h2 {max-width: 595px;margin-left: auto;margin-right: auto;font-family: DM Serif Display;}.top-collection-grid {display: flex;flex-wrap: wrap;gap: 32px;justify-content: center;margin-top: 60px;width: 100%;margin-right: auto;margin-left: auto;padding-right: 90px;padding-left: 90px;}.top-collection-card {position: relative;background: #f9fafb;overflow:hidden;border-radius:20px;}.top-collection-card img {border-radius: 16px;max-width: 100%;text-indent:-9999px;transition: transform 300ms ease;transform: scale(1);}.top-collection-card:hover img {transform: scale(1.05);transition: all 300ms ease;}.top-collection-card h3 {color: #25843D;font-size: 30px;font-family: DM Serif Display;transform: translateX(-50%);width: max-content;left: 50%;bottom: 30px;position: absolute;margin: 0;font-weight: inherit;}@media not all and (min-width: 525px) {.top-collection-header {margin-top: 28px;font-size: 20px;line-height: 1.5;}.top-collection-grid {gap: 10px}}@media not all and (min-width: 768px) {.top-collection-header {margin-top: 30px;font-size: 28px;line-height: 3;}.top-collection-header h2 {line-height:2; margin-bottom:20px;} .top-collection-grid {gap: 14px}} @media not all and (min-width: 1024px) {.top-collection-grid {padding-left: 30px;padding-right: 30px;}}@media (max-width: 768px) {.top-collection-grid { row-gap:15px; column-gap:0px;justify-content: space-between;margin-top: 0px;} .top-collection-card{width:48%} .top-collection-card img {width:100%;} .top-collection-card h3 {font-size:24px; bottom: 16px;}}@media (max-width:520px) { .top-collection-grid{padding-left: 15px;padding-right: 15px;} .top-collection-card h3 {font-size:18px; bottom: 10px;}}/* label pill */.top-collection-card h3 {background: rgba(255,255,255,0.92);padding: 6px 20px;border-radius: 30px;font-size: 24px;bottom: 20px;}@media not all and (min-width: 768px) {.top-collection-card h3 {font-size: 14px;padding: 4px 12px;bottom: 10px;}}"
     }
   },
   {
@@ -92,20 +77,20 @@
     "name": "Bold Collections",
     "sort_order": 6,
     "options": {
-      "html": "<div class=\"section-gap bold-collections container\">\n                                <div class=\"inline-col-wrapper\">\n                                    <div class=\"inline-col-image-wrapper\">\n                                        <img src=\"/images/static/7.webp\" loading=\"lazy\" width=\"632\" height=\"510\" alt=\"Get Ready for our new Bold Collections!\">\n                                    </div>\n\n                                    <div class=\"inline-col-content-wrapper\">\n                                        <h2 class=\"inline-col-title\"> Get Ready for our new Bold Collections! </h2> \n                                        \n                                        <p class=\"inline-col-description\">Introducing Our New Bold Collections! Elevate your style with daring designs and vibrant statements. Explore striking patterns and bold colors that redefine your wardrobe. Get ready to embrace the extraordinary!</p>\n                                        \n                                        <a href=\"/wellness\">\n                                            <button class=\"primary-button max-md:rounded-lg max-md:px-4 max-md:py-2.5 max-md:text-sm\">View Collections</button>\n                                        </a>\n                                    </div>\n                                </div>\n                            </div>",
-      "css": ".section-gap{margin-top:80px}.direction-ltr{direction:ltr}.direction-rtl{direction:rtl}.inline-col-wrapper{display:grid;grid-template-columns:auto 1fr;grid-gap:60px;align-items:center}.inline-col-wrapper .inline-col-image-wrapper{overflow:hidden}.inline-col-wrapper .inline-col-image-wrapper img{max-width:100%;height:auto;border-radius:16px;text-indent:-9999px}.inline-col-wrapper .inline-col-content-wrapper{display:flex;flex-wrap:wrap;gap:20px;max-width:464px}.inline-col-wrapper .inline-col-content-wrapper .inline-col-title{max-width:442px;font-size:60px;font-weight:400;color:#060c3b;line-height:70px;font-family:DM Serif Display;margin:0}.inline-col-wrapper .inline-col-content-wrapper .inline-col-description{margin:0;font-size:18px;color:#6e6e6e;font-family:Poppins}@media (max-width:991px){.inline-col-wrapper{grid-template-columns:1fr;grid-gap:16px}.inline-col-wrapper .inline-col-content-wrapper{gap:10px}} @media (max-width:768px){.inline-col-wrapper .inline-col-image-wrapper img {width:100%;} .inline-col-wrapper .inline-col-content-wrapper .inline-col-title{font-size:28px !important;line-height:normal !important}} @media (max-width:525px){.inline-col-wrapper .inline-col-content-wrapper .inline-col-title{font-size:20px !important;} .inline-col-description{font-size:16px} .inline-col-wrapper{grid-gap:10px}}"
+      "html": "<div class=\"section-gap bold-collections container\">\n                                <div class=\"inline-col-wrapper\">\n                                    <div class=\"inline-col-image-wrapper\">\n                                        <img src=\"/images/static/7.webp\" loading=\"lazy\" width=\"632\" height=\"510\" alt=\"Your design, printed by experts\">\n                                    </div>\n\n                                    <div class=\"inline-col-content-wrapper\">\n                                        <h2 class=\"inline-col-title\">\n                                            Your design, printed by experts\n                                        </h2>\n\n                                        <p class=\"inline-col-description\">Upload your logo, add text or a QR code and see a live preview on the product before you order. We print with DTF, screen printing and laser engraving so every T-shirt, pen and diary looks sharp and lasts long.</p>\n\n                                        <a href=\"/custom-t-shirts\">\n                                            <button class=\"primary-button max-md:rounded-lg max-md:px-4 max-md:py-2.5 max-md:text-sm\">Start Designing</button>\n                                        </a>\n                                    </div>\n                                </div>\n                            </div>",
+      "css": ".section-gap{margin-top:80px}.direction-ltr{direction:ltr}.direction-rtl{direction:rtl}.inline-col-wrapper{display:grid;grid-template-columns:auto 1fr;grid-gap:60px;align-items:center}.inline-col-wrapper .inline-col-image-wrapper{overflow:hidden}.inline-col-wrapper .inline-col-image-wrapper img{max-width:100%;height:auto;border-radius:16px;text-indent:-9999px}.inline-col-wrapper .inline-col-content-wrapper{display:flex;flex-wrap:wrap;gap:20px;max-width:464px}.inline-col-wrapper .inline-col-content-wrapper .inline-col-title{max-width:442px;font-size:60px;font-weight:400;color:#25843D;line-height:70px;font-family:DM Serif Display;margin:0}.inline-col-wrapper .inline-col-content-wrapper .inline-col-description{margin:0;font-size:18px;color:#6e6e6e;font-family:Poppins}@media (max-width:991px){.inline-col-wrapper{grid-template-columns:1fr;grid-gap:16px}.inline-col-wrapper .inline-col-content-wrapper{gap:10px}} @media (max-width:768px){.inline-col-wrapper .inline-col-image-wrapper img {width:100%;} .inline-col-wrapper .inline-col-content-wrapper .inline-col-title{font-size:28px !important;line-height:normal !important}} @media (max-width:525px){.inline-col-wrapper .inline-col-content-wrapper .inline-col-title{font-size:20px !important;} .inline-col-description{font-size:16px} .inline-col-wrapper{grid-gap:10px}}"
     }
   },
   {
     "id": 7,
     "type": "product_carousel",
-    "name": "Womens Collection",
+    "name": "Custom Pens",
     "sort_order": 7,
     "options": {
-      "title": "Womens Collection",
+      "title": "Custom Pens",
       "filters": {
         "category_id": 4,
-        "sort": "created_at-desc",
+        "sort": "created_at-asc",
         "limit": 10
       }
     }
@@ -113,23 +98,23 @@
   {
     "id": 8,
     "type": "static_content",
-    "name": "Game Container",
+    "name": "Collections",
     "sort_order": 8,
     "options": {
-      "html": "<div class=\"section-game\">\n                                <div class=\"section-title\">\n                                    <h2>The game with our new additions!</h2> \n                                </div>\n\n                                <div class=\"section-gap container\">\n                                    <div class=\"collection-card-wrapper\">\n                                        <div class=\"single-collection-card\">\n                                            <a href=\"/active-wear\">\n                                                <img src=\"/images/static/8.webp\" loading=\"lazy\" width=\"615\" height=\"600\" alt=\"The game with our new additions!\">\n                                                \n                                                <h3 class=\"overlay-text\">Our Collections</h3> \n                                            </a>\n                                        </div>\n\n                                        <div class=\"single-collection-card\">\n                                            <a href=\"/active-wear-female\">\n                                                <img src=\"/images/static/9.webp\" loading=\"lazy\" width=\"615\" height=\"600\" alt=\"The game with our new additions!\">\n                                                \n                                                <h3 class=\"overlay-text\"> Our Collections </h3> \n                                            </a>\n                                        </div>\n                                    </div>\n                                </div>\n                            </div>",
-      "css": ".section-game {overflow: hidden;}.section-title,.section-title h2{font-weight:400;font-family:DM Serif Display}.section-title{margin-top:80px;padding-left:15px;padding-right:15px;text-align:center;line-height:90px}.section-title h2{font-size:70px;color:#060c3b;max-width:595px;margin:auto}.collection-card-wrapper{display:flex;flex-wrap:wrap;justify-content:center;gap:30px}.collection-card-wrapper .single-collection-card{position:relative}.collection-card-wrapper .single-collection-card img{border-radius:16px;background-color:#f5f5f5;max-width:100%;height:auto;text-indent:-9999px}.collection-card-wrapper .single-collection-card .overlay-text{font-size:50px;font-weight:400;max-width:234px;font-style:italic;color:#060c3b;font-family:DM Serif Display;position:absolute;bottom:30px;left:30px;margin:0}@media (max-width:1024px){.section-title{padding:0 30px}}@media (max-width:991px){.collection-card-wrapper{flex-wrap:wrap}}@media (max-width:768px) {.collection-card-wrapper .single-collection-card .overlay-text{font-size:32px; bottom:20px}.section-title{margin-top:32px}.section-title h2{font-size:28px;line-height:normal}} @media (max-width:525px){.collection-card-wrapper .single-collection-card .overlay-text{font-size:18px; bottom:10px} .section-title{margin-top:28px}.section-title h2{font-size:20px;} .collection-card-wrapper{gap:10px; 15px; row-gap:15px; column-gap:0px;justify-content: space-between;margin-top: 15px;} .collection-card-wrapper .single-collection-card {width:48%;}}"
+      "html": "<div class=\"section-game\">\n                                <div class=\"section-title\">\n                                    <h2>Made for teams, events and gifting</h2>\n                                </div>\n\n                                <div class=\"section-gap container\">\n                                    <div class=\"collection-card-wrapper\">\n                                        <div class=\"single-collection-card\">\n                                            <a href=\"/custom-t-shirts\">\n                                                <img src=\"/images/static/8.webp\" loading=\"lazy\" width=\"615\" height=\"600\" alt=\"Custom Apparel\">\n                                                <h3 class=\"overlay-text\">Custom Apparel</h3>\n                                            </a>\n                                        </div>\n\n                                        <div class=\"single-collection-card\">\n                                            <a href=\"/diaries-notebooks\">\n                                                <img src=\"/images/static/9.webp\" loading=\"lazy\" width=\"615\" height=\"600\" alt=\"Custom Stationery\">\n                                                <h3 class=\"overlay-text\">Custom Stationery</h3>\n                                            </a>\n                                        </div>\n                                    </div>\n                                </div>\n                            </div>",
+      "css": ".section-game {overflow: hidden;}.section-title,.section-title h2{font-weight:400;font-family:DM Serif Display}.section-title{margin-top:80px;padding-left:15px;padding-right:15px;text-align:center;line-height:90px}.section-title h2{font-size:70px;color:#25843D;max-width:595px;margin:auto}.collection-card-wrapper{display:flex;flex-wrap:wrap;justify-content:center;gap:30px}.collection-card-wrapper .single-collection-card{position:relative}.collection-card-wrapper .single-collection-card img{border-radius:16px;background-color:#f5f5f5;max-width:100%;height:auto;text-indent:-9999px}.collection-card-wrapper .single-collection-card .overlay-text{font-size:50px;font-weight:400;max-width:234px;font-style:italic;color:#25843D;font-family:DM Serif Display;position:absolute;bottom:30px;left:30px;margin:0}@media (max-width:1024px){.section-title{padding:0 30px}}@media (max-width:991px){.collection-card-wrapper{flex-wrap:wrap}}@media (max-width:768px) {.collection-card-wrapper .single-collection-card .overlay-text{font-size:32px; bottom:20px}.section-title{margin-top:32px}.section-title h2{font-size:28px;line-height:normal}} @media (max-width:525px){.collection-card-wrapper .single-collection-card .overlay-text{font-size:18px; bottom:10px} .section-title{margin-top:28px}.section-title h2{font-size:20px;} .collection-card-wrapper{gap:10px; 15px; row-gap:15px; column-gap:0px;justify-content: space-between;margin-top: 15px;} .collection-card-wrapper .single-collection-card {width:48%;}}/* readable overlay */.collection-card-wrapper .single-collection-card .overlay-text {color: #ffffff;text-shadow: 0 2px 14px rgba(0,0,0,0.6);}"
     }
   },
   {
     "id": 9,
     "type": "product_carousel",
-    "name": "Kids Collection",
+    "name": "Diaries & Notebooks",
     "sort_order": 9,
     "options": {
-      "title": "Kids Collection",
+      "title": "Diaries & Notebooks",
       "filters": {
-        "category_id": 3,
-        "sort": "price-desc",
+        "category_id": 8,
+        "sort": "created_at-asc",
         "limit": 10
       }
     }
@@ -140,19 +125,19 @@
     "name": "Bold Collections",
     "sort_order": 10,
     "options": {
-      "html": "<div class=\"section-gap bold-collections container\">\n                                <div class=\"inline-col-wrapper direction-rtl\">\n                                    <div class=\"inline-col-image-wrapper\">\n                                        <img src=\"/images/static/10.webp\" loading=\"lazy\" width=\"632\" height=\"510\" alt=\"Unleash Your Boldness with Our New Collection!\">\n                                    </div>\n\n                                    <div class=\"inline-col-content-wrapper direction-ltr\">\n                                        <h2 class=\"inline-col-title\">Unleash Your Boldness with Our New Collection!</h2> \n                                        \n                                        <p class=\"inline-col-description\">Our Bold Collections are here to redefine your wardrobe with fearless designs and striking, vibrant colors. From daring patterns to powerful hues, this is your chance to break away from the ordinary and step into the extraordinary.</p>\n                                        \n                                        <a href=\"/electronics\">\n                                            <button class=\"primary-button max-md:rounded-lg max-md:px-4 max-md:py-2.5 max-md:text-sm\">View Collections</button>\n                                        </a>\n                                    </div>\n                                </div>\n                            </div>",
-      "css": ".section-gap{margin-top:80px}.direction-ltr{direction:ltr}.direction-rtl{direction:rtl}.inline-col-wrapper{display:grid;grid-template-columns:auto 1fr;grid-gap:60px;align-items:center}.inline-col-wrapper .inline-col-image-wrapper{overflow:hidden}.inline-col-wrapper .inline-col-image-wrapper img{max-width:100%;height:auto;border-radius:16px;text-indent:-9999px}.inline-col-wrapper .inline-col-content-wrapper{display:flex;flex-wrap:wrap;gap:20px;max-width:464px}.inline-col-wrapper .inline-col-content-wrapper .inline-col-title{max-width:442px;font-size:60px;font-weight:400;color:#060c3b;line-height:70px;font-family:DM Serif Display;margin:0}.inline-col-wrapper .inline-col-content-wrapper .inline-col-description{margin:0;font-size:18px;color:#6e6e6e;font-family:Poppins}@media (max-width:991px){.inline-col-wrapper{grid-template-columns:1fr;grid-gap:16px}.inline-col-wrapper .inline-col-content-wrapper{gap:10px}}@media (max-width:768px) {.inline-col-wrapper .inline-col-image-wrapper img {max-width:100%;}.inline-col-wrapper .inline-col-content-wrapper{max-width:100%;justify-content:center; text-align:center} .section-gap{padding:0 30px; gap:20px;margin-top:24px} .bold-collections{margin-top:32px;}} @media (max-width:525px){.inline-col-wrapper .inline-col-content-wrapper{gap:10px} .inline-col-wrapper .inline-col-content-wrapper .inline-col-title{font-size:20px;line-height:normal} .section-gap{padding:0 15px; gap:15px;margin-top:10px} .bold-collections{margin-top:28px;}  .inline-col-description{font-size:16px !important} .inline-col-wrapper{grid-gap:15px}"
+      "html": "<div class=\"section-gap bold-collections container\">\n                                <div class=\"inline-col-wrapper direction-rtl\">\n                                    <div class=\"inline-col-image-wrapper\">\n                                        <img src=\"/images/static/10.webp\" loading=\"lazy\" width=\"632\" height=\"510\" alt=\"Corporate gifts with your logo\">\n                                    </div>\n\n                                    <div class=\"inline-col-content-wrapper direction-ltr\">\n                                        <h2 class=\"inline-col-title\">Corporate gifts with your logo</h2>\n\n                                        <p class=\"inline-col-description\">Welcome kits, diary and pen combos and festive hampers, all branded for your company. Order in bulk with special pricing and doorstep delivery.</p>\n\n                                        <a href=\"/corporate-gift-sets\">\n                                            <button class=\"primary-button max-md:rounded-lg max-md:px-4 max-md:py-2.5 max-md:text-sm\">View Gift Sets</button>\n                                        </a>\n                                    </div>\n                                </div>\n                            </div>",
+      "css": ".section-gap{margin-top:80px}.direction-ltr{direction:ltr}.direction-rtl{direction:rtl}.inline-col-wrapper{display:grid;grid-template-columns:auto 1fr;grid-gap:60px;align-items:center}.inline-col-wrapper .inline-col-image-wrapper{overflow:hidden}.inline-col-wrapper .inline-col-image-wrapper img{max-width:100%;height:auto;border-radius:16px;text-indent:-9999px}.inline-col-wrapper .inline-col-content-wrapper{display:flex;flex-wrap:wrap;gap:20px;max-width:464px}.inline-col-wrapper .inline-col-content-wrapper .inline-col-title{max-width:442px;font-size:60px;font-weight:400;color:#25843D;line-height:70px;font-family:DM Serif Display;margin:0}.inline-col-wrapper .inline-col-content-wrapper .inline-col-description{margin:0;font-size:18px;color:#6e6e6e;font-family:Poppins}@media (max-width:991px){.inline-col-wrapper{grid-template-columns:1fr;grid-gap:16px}.inline-col-wrapper .inline-col-content-wrapper{gap:10px}}@media (max-width:768px) {.inline-col-wrapper .inline-col-image-wrapper img {max-width:100%;}.inline-col-wrapper .inline-col-content-wrapper{max-width:100%;justify-content:center; text-align:center} .section-gap{padding:0 30px; gap:20px;margin-top:24px} .bold-collections{margin-top:32px;}} @media (max-width:525px){.inline-col-wrapper .inline-col-content-wrapper{gap:10px} .inline-col-wrapper .inline-col-content-wrapper .inline-col-title{font-size:20px;line-height:normal} .section-gap{padding:0 15px; gap:15px;margin-top:10px} .bold-collections{margin-top:28px;}  .inline-col-description{font-size:16px !important} .inline-col-wrapper{grid-gap:15px}"
     }
   },
   {
     "id": 11,
     "type": "product_carousel",
-    "name": "Book Tickets",
+    "name": "Corporate Gift Sets",
     "sort_order": 11,
     "options": {
-      "title": "Book Tickets",
+      "title": "Corporate Gift Sets",
       "filters": {
-        "category_id": 26,
+        "category_id": 9,
         "sort": "name-asc",
         "limit": 10
       }
@@ -167,17 +152,17 @@
       "services": [
         {
           "title": "Free Shipping",
-          "description": "Enjoy free shipping on all orders",
+          "description": "Free shipping on all bulk orders",
           "service_icon": "icon-truck"
         },
         {
-          "title": "Product Replace",
-          "description": "Easy Product Replacement Available!",
+          "title": "Free Design Preview",
+          "description": "See your design on the product before you pay",
           "service_icon": "icon-product"
         },
         {
-          "title": "Emi Available",
-          "description": "No cost EMI available on all major credit cards",
+          "title": "Bulk Discounts",
+          "description": "Special pricing for teams, events and companies",
           "service_icon": "icon-dollar-sign"
         },
         {

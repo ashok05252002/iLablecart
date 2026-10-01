@@ -17,7 +17,7 @@ function AuthShell({ title, heading, text, footerKey, children, after }) {
             <div className="container mt-20 max-1180:px-5 max-md:mt-12">
                 <div className="flex items-center gap-x-14 max-[1180px]:gap-x-9">
                     <Link to="/" className="m-[0_auto_20px_auto]" aria-label="Bagisto">
-                        <img src="/images/logo.svg" alt="Demo store" width="131" height="29" />
+                        <img src="/images/logo.png" alt="Sainmarks" width="143" height="29" />
                     </Link>
                 </div>
 

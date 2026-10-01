@@ -9,7 +9,7 @@ import MiniCart from './MiniCart';
 const categories = categoryTree();
 
 function Logo({ className }) {
-    return <img className={className} src="/images/logo.svg" width="131" height="29" alt="Demo store" />;
+    return <img className={className} src="/images/logo.png" width="143" height="29" alt="Sainmarks" />;
 }
 
 function useSearchSubmit() {

@@ -37,7 +37,7 @@ export function Coupon() {
 
             <div className="text-base font-medium max-sm:text-sm">
                 {!cart.coupon && (
-                    <span className="cursor-pointer text-base text-blue-700 max-sm:text-sm" role="button" tabIndex={0} onClick={() => setIsOpen(true)}>
+                    <span className="cursor-pointer text-base text-brand-700 max-sm:text-sm" role="button" tabIndex={0} onClick={() => setIsOpen(true)}>
                         {t('checkout.coupon.apply')}
                     </span>
                 )}

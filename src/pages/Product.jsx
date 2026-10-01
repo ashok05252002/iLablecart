@@ -1,4 +1,5 @@
 import { useMemo, useRef, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Layout from '../components/layout/Layout';
 import { ProductsCarousel } from '../components/home/Carousels';
 import { Price } from '../components/products/ProductCard';
@@ -8,6 +9,7 @@ import {
 import extras from '../data/extras.json';
 import { PLACEHOLDER, allProducts, formatPrice, ratingsFor, relatedProducts } from '../lib/catalog';
 import { t } from '../lib/i18n';
+import { getCustomizer } from '../designer/constants/surfaceConfig';
 import { useStore } from '../store/StoreContext';
 
 const REVIEWERS = ['Emma Wilson', 'Liam Carter', 'Sophia Patel', 'Noah Brooks', 'Ava Martins', 'Ethan Kim', 'Mia Johnson', 'Lucas Rivera', 'Olivia Chen'];
@@ -187,7 +189,7 @@ function ConfigurableOptions({ product, selected, setSelected, errors }) {
                                 <h2 className="mb-4 text-xl max-sm:mb-1.5 max-sm:text-base max-sm:font-medium">{attribute.label}</h2>
                                 <select
                                     className={cx(
-                                        'custom-select mb-3 block w-full cursor-pointer rounded-lg border border-zinc-200 bg-white px-5 py-3 text-base text-zinc-500 focus:border-blue-500 focus:ring-blue-500',
+                                        'custom-select mb-3 block w-full cursor-pointer rounded-lg border border-zinc-200 bg-white px-5 py-3 text-base text-zinc-500 focus:border-brand-500 focus:ring-brand-500',
                                         errors[attribute.code] && 'border border-red-500',
                                     )}
                                     value={value || ''}
@@ -250,6 +252,44 @@ function ConfigurableOptions({ product, selected, setSelected, errors }) {
     );
 }
 
+/** Bagisto "customizable options" of simple products (select type), e.g. Size, Ink Colour. */
+function CustomizableOptions({ product, values, setValues, errors }) {
+    if (!product.customizable_options?.length) {
+        return null;
+    }
+
+    return (
+        <div className="w-[455px] max-w-full max-sm:w-full">
+            {product.customizable_options.map((option) => (
+                <div key={option.label} className="mt-5">
+                    <h2 className={cx('mb-4 text-xl max-sm:mb-1.5 max-sm:text-base max-sm:font-medium', option.is_required && 'required')}>
+                        {option.label}
+                    </h2>
+
+                    <select
+                        className={cx(
+                            'custom-select mb-3 block w-full cursor-pointer rounded-lg border border-zinc-200 bg-white px-5 py-3 text-base text-zinc-500 focus:border-brand-500 focus:ring-brand-500',
+                            errors[option.label] && 'border border-red-500',
+                        )}
+                        value={values[option.label] || ''}
+                        aria-label={option.label}
+                        onChange={(event) => setValues({ ...values, [option.label]: event.target.value })}
+                    >
+                        <option value="">{t('products.view.type.configurable.select-options')}</option>
+                        {option.options.map((item) => (
+                            <option key={item.label} value={item.label}>
+                                {item.price ? `${item.label} + ${formatPrice(item.price)}` : item.label}
+                            </option>
+                        ))}
+                    </select>
+
+                    <FieldError message={errors[option.label] && `The ${option.label} field is required`} />
+                </div>
+            ))}
+        </div>
+    );
+}
+
 function DownloadableLinks({ product, links, setLinks, error }) {
     const items = extras.downloadable[product.id] || [];
 
@@ -282,7 +322,7 @@ function DownloadableLinks({ product, links, setLinks, error }) {
                         </div>
 
                         {link.has_sample && (
-                            <a href="#sample" className="text-blue-700 max-sm:text-sm" onClick={(event) => event.preventDefault()}>
+                            <a href="#sample" className="text-brand-700 max-sm:text-sm" onClick={(event) => event.preventDefault()}>
                                 {t('products.view.type.downloadable.sample')}
                             </a>
                         )}
@@ -389,7 +429,7 @@ function BookingInformation({ product, booking, setBooking, error }) {
                             href={`https://maps.google.com/maps?q=${encodeURIComponent(info.location)}`}
                             target="_blank"
                             rel="noreferrer"
-                            className="w-fit text-blue-600 hover:text-blue-800"
+                            className="w-fit text-brand-600 hover:text-brand-800"
                         >
                             {t('products.view.type.booking.view-on-map')}
                         </a>
@@ -445,7 +485,11 @@ function additionalInfo(product) {
         rows.push([attribute.label, attribute.options.map((option) => option.label).join(', ')]);
     }
 
-    rows.push(['Brand', ['Adidas', 'Nike', 'Elegance'][product.id % 3]]);
+    for (const option of product.customizable_options || []) {
+        rows.push([option.label, option.options.map((item) => item.label).join(', ')]);
+    }
+
+    rows.push(['Is Customizable', product.is_customizable ? 'Yes' : 'No']);
 
     return rows;
 }
@@ -771,8 +815,10 @@ function InformationSection({ product, activeTab, setActiveTab, reviewsRef }) {
 
 export default function Product({ product }) {
     const { addToCart, toggleWishlist, addToCompare, wishlist, flash } = useStore();
+    const navigate = useNavigate();
     const [quantity, setQuantity] = useState(1);
     const [selected, setSelected] = useState({});
+    const [customOptions, setCustomOptions] = useState({});
     const [links, setLinks] = useState([]);
     const [booking, setBooking] = useState({});
     const [bundle, setBundle] = useState(() =>
@@ -796,6 +842,12 @@ export default function Product({ product }) {
                 if (!selected[attribute.code]) {
                     next[attribute.code] = true;
                 }
+            }
+        }
+
+        for (const option of product.customizable_options || []) {
+            if (option.is_required && !customOptions[option.label]) {
+                next[option.label] = true;
             }
         }
 
@@ -837,7 +889,13 @@ export default function Product({ product }) {
             }));
         }
 
-        return [];
+        return (product.customizable_options || [])
+            .filter((option) => customOptions[option.label])
+            .map((option) => ({
+                attribute_name: option.label,
+                option_label: customOptions[option.label],
+                price: option.options.find((item) => item.label === customOptions[option.label])?.price || 0,
+            }));
     };
 
     const submit = () => {
@@ -848,6 +906,17 @@ export default function Product({ product }) {
         }
 
         addToCart(product, quantity, options());
+    };
+
+    /** Same validation as Add to Cart, then open the designer (Bagisto: shop.custom_shirt.index). */
+    const customize = () => {
+        if (!validate()) {
+            flash('error', t('checkout.cart.missing-options'));
+
+            return;
+        }
+
+        navigate(`/customize/${product.id}`, { state: { quantity, options: options() } });
     };
 
     const scrollToReview = () => {
@@ -898,6 +967,10 @@ export default function Product({ product }) {
                                 <ConfigurableOptions product={product} selected={selected} setSelected={setSelected} errors={errors} />
                             )}
 
+                            {product.type === 'simple' && (
+                                <CustomizableOptions product={product} values={customOptions} setValues={setCustomOptions} errors={errors} />
+                            )}
+
                             {product.type === 'bundle' && <BundleOptions product={product} bundle={bundle} setBundle={setBundle} />}
 
                             {product.type === 'downloadable' && <DownloadableLinks product={product} links={links} setLinks={setLinks} error={errors.links} />}
@@ -921,6 +994,20 @@ export default function Product({ product }) {
                                     {t('products.view.add-to-cart')}
                                 </button>
                             </div>
+
+                            {product.is_customizable && (
+                                <button
+                                    type="button"
+                                    className="mb-2 mt-[18px] flex w-full max-w-[470px] items-center justify-center gap-2.5 rounded-[14px] px-6 py-3.5 text-base font-bold tracking-[0.5px] text-white shadow-[0_10px_25px_-5px_rgba(37, 132, 61,0.45)] transition hover:-translate-y-0.5 hover:shadow-[0_14px_28px_-5px_rgba(37, 132, 61,0.6)]"
+                                    style={{ background: 'linear-gradient(135deg, #25843D 0%, #2B9445 50%, #1E6B32 100%)' }}
+                                    onClick={customize}
+                                >
+                                    <svg className="h-[22px] w-[22px] shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
+                                    </svg>
+                                    {`Customize This ${getCustomizer(product.customizer).label}`}
+                                </button>
+                            )}
 
 
                             <div className="mt-10 flex gap-9 max-md:mt-4 max-md:flex-wrap max-sm:justify-center max-sm:gap-3">

@@ -16,7 +16,7 @@ export default function Layout({ children, title, hasHeader = true, hasFeature =
     }, [pathname]);
 
     useEffect(() => {
-        document.title = title || 'Demo store';
+        document.title = title || 'Sainmarks';
     }, [title]);
 
     return (

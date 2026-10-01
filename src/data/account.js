@@ -51,12 +51,11 @@ export const mockOrders = [
         created_at: '2026-09-24T10:12:00Z',
         status: 'processing',
         items: [
-            item(24, "EverFresh Men's Wrinkle-Free Half Sleeve 100% Cotton Tee", 'mt-everfresh-tee-m-blue', 42.99, 2, [
-                { attribute_name: 'Color', option_label: 'Blue' },
-                { attribute_name: 'Size', option_label: 'M' },
+            item(212, 'Executive PU Leather Diary A5', 'custom-executive-diary', 9.99, 10, [
+                { attribute_name: 'Inside Pages', option_label: 'Ruled' },
             ]),
         ],
-        sub_total: 85.98, discount: 0, shipping: 10, tax: 0, grand_total: 95.98,
+        sub_total: 99.9, discount: 0, shipping: 10, tax: 0, grand_total: 109.9,
         shipping_method: 'Flat Rate - Flat Rate', payment_method: 'Cash On Delivery',
         billing_address: mockAddresses[0], shipping_address: mockAddresses[0],
     },
@@ -65,8 +64,8 @@ export const mockOrders = [
         increment_id: '1002',
         created_at: '2026-09-12T15:40:00Z',
         status: 'completed',
-        items: [item(129, 'Smart Fitness Watch with Heart Rate Monitor & Activity Tracking', 'smart-fitness-watch', 25, 1)],
-        sub_total: 25, discount: 0, shipping: 0, tax: 0, grand_total: 25,
+        items: [item(208, 'Metal Ball Pen with Laser Engraving', 'custom-metal-pen', 3.49, 50, [{ attribute_name: 'Ink Colour', option_label: 'Blue' }])],
+        sub_total: 174.5, discount: 0, shipping: 0, tax: 0, grand_total: 174.5,
         shipping_method: 'Free Shipping - Free Shipping', payment_method: 'Money Transfer',
         billing_address: mockAddresses[0], shipping_address: mockAddresses[1],
     },
@@ -75,20 +74,22 @@ export const mockOrders = [
         increment_id: '1001',
         created_at: '2026-08-30T09:05:00Z',
         status: 'canceled',
-        items: [item(45, 'Beginner Yoga Tutorial- 300+ HD digital video tutorials', 'yoga-tutorial', 45.99, 1)],
-        sub_total: 45.99, discount: 0, shipping: 0, tax: 0, grand_total: 45.99,
-        shipping_method: null, payment_method: 'Money Transfer',
-        billing_address: mockAddresses[0], shipping_address: null,
+        items: [item(206, 'Fleece Pullover Hoodie', 'fleece-hoodie', 29.99, 1, [
+            { attribute_name: 'Color', option_label: 'Grey' },
+            { attribute_name: 'Size', option_label: 'L' },
+        ])],
+        sub_total: 29.99, discount: 0, shipping: 10, tax: 0, grand_total: 39.99,
+        shipping_method: 'Flat Rate - Flat Rate', payment_method: 'Money Transfer',
+        billing_address: mockAddresses[0], shipping_address: mockAddresses[0],
     },
 ];
 
 export const mockReviews = [
-    { id: 1, productId: 24, title: 'Great fit', comment: 'Soft fabric and true to size. Would buy again.', rating: 5, created_at: '2026-09-20' },
-    { id: 2, productId: 129, title: 'Good value', comment: 'Battery lasts about a week. The strap could be better.', rating: 4, created_at: '2026-09-15' },
+    { id: 1, productId: 147, title: 'Print came out sharp', comment: 'Ordered 40 tees for our team. Print quality and fabric are great.', rating: 5, created_at: '2026-09-20' },
+    { id: 2, productId: 212, title: 'Good value', comment: 'Logo on the cover looks premium. Delivery took a few extra days.', rating: 4, created_at: '2026-09-15' },
 ];
 
 export const mockDownloads = [
-    { id: 1, order_id: 1001, title: 'Beginner Yoga Tutorial', status: 'available', created_at: '2026-08-30', remaining: 'Unlimited' },
 ];
 
 export const countries = [

@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { t } from '../../lib/i18n';
-import { baseImage, formatPrice } from '../../lib/catalog';
+import { formatPrice, itemImage } from '../../lib/catalog';
 import { useStore } from '../../store/StoreContext';
+import { CustomizedBadge } from '../products/Customized';
 import { Drawer, QuantityChanger } from '../ui';
 
-const OFFER_INFO = 'Get Up To 30% OFF on your 1st order';
+const OFFER_INFO = 'Get FLAT 15% OFF on your 1st custom order';
 
 function MiniCartItem({ item }) {
     const { updateCartItem, removeCartItem } = useStore();
@@ -17,7 +18,7 @@ function MiniCartItem({ item }) {
             <div>
                 <Link to={url}>
                     <img
-                        src={baseImage(item.product)}
+                        src={itemImage(item)}
                         alt={item.product.name}
                         className="max-h-28 max-w-28 rounded-xl max-md:max-h-20 max-md:max-w-[76px]"
                     />
@@ -26,9 +27,13 @@ function MiniCartItem({ item }) {
 
             <div className="grid flex-1 place-content-start justify-stretch gap-y-2.5">
                 <div className="flex justify-between gap-2 max-md:gap-0 max-sm:flex-wrap">
-                    <Link className="max-w-4/5 max-md:w-full" to={url}>
-                        <p className="text-base font-medium max-md:font-normal max-sm:text-sm">{item.product.name}</p>
-                    </Link>
+                    <div className="max-w-4/5 max-md:w-full">
+                        <Link to={url}>
+                            <p className="text-base font-medium max-md:font-normal max-sm:text-sm">{item.product.name}</p>
+                        </Link>
+
+                        <CustomizedBadge item={item} compact />
+                    </div>
 
                     <p className="text-lg max-md:font-semibold max-sm:text-sm">{formatPrice(item.price)}</p>
                 </div>
@@ -69,7 +74,7 @@ function MiniCartItem({ item }) {
                         onRemove={() => removeCartItem(item.id)}
                     />
 
-                    <button type="button" className="text-blue-700 max-md:text-sm" onClick={() => removeCartItem(item.id)}>
+                    <button type="button" className="text-brand-700 max-md:text-sm" onClick={() => removeCartItem(item.id)}>
                         {t('checkout.cart.mini-cart.remove')}
                     </button>
                 </div>

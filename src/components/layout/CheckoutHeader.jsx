@@ -31,7 +31,7 @@ function CheckoutLogin() {
     return (
         <div>
             <div className="flex items-center">
-                <span className="cursor-pointer text-base font-medium text-blue-700" role="button" onClick={() => setIsOpen(true)}>
+                <span className="cursor-pointer text-base font-medium text-brand-700" role="button" onClick={() => setIsOpen(true)}>
                     {t('checkout.login.title')}
                 </span>
             </div>
@@ -89,7 +89,7 @@ export default function CheckoutHeader({ ariaLabel }) {
             <div className="flex w-full justify-between border border-b border-l-0 border-r-0 border-t-0 px-[60px] py-4 max-lg:px-8 max-md:px-4">
                 <div className="flex items-center gap-x-14 max-[1180px]:gap-x-9">
                     <Link to="/" className="flex min-h-[30px]" aria-label={ariaLabel}>
-                        <img src="/images/logo.svg" alt="Demo store" width="131" height="29" />
+                        <img src="/images/logo.png" alt="Sainmarks" width="143" height="29" />
                     </Link>
                 </div>
 

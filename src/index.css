@@ -406,20 +406,20 @@ img.lazy {
     }
 
 	.label-pending {
-		@apply bg-yellow-500;
+		@apply bg-[#4A4C4D];
 	}
 
 	.label-processing{
-		@apply bg-cyan-600;
+		@apply bg-[#9A7526]; /* Sainmarks gold, dark enough for white text */
     }
 
 	.label-completed,
     .label-active {
-		@apply bg-green-600;
+		@apply bg-[#25843D];
 	}
 
 	.label-closed {
-		@apply bg-indigo-600;
+		@apply bg-slate-500;
 	}
 
     .label-canceled {
@@ -435,7 +435,7 @@ img.lazy {
     }
 
     .secondary-button {
-        @apply flex gap-x-1.5 items-center place-content-center font-medium rounded-xl bg-white text-navyBlue border border-navyBlue px-8 py-4 max-w-max cursor-pointer transition-all hover:bg-[#050e3a0d];
+        @apply flex gap-x-1.5 items-center place-content-center font-medium rounded-xl bg-white text-navyBlue border border-navyBlue px-8 py-4 max-w-max cursor-pointer transition-all hover:bg-[#25843d0d];
     }
 
     .shimmer {
@@ -492,7 +492,7 @@ img.lazy {
     .glow-404 {
         background-clip: text;
         -webkit-background-clip: text;
-        color: #060C3B;
+        color: #25843D;
     }
 
     .glow-shadow-404 {
